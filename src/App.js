@@ -1,16 +1,15 @@
 import React from 'react';
-import logo from './logo.vision.png';
+import ReactDOM from 'react-dom';
 import './App.css';
 
-
   const App = () => (
-    <div className="container">
-      <nav className="navbar navbar-toggleable-md navbar-light bg-faded">
+      <nav className="navbar navbar-toggleable-md navbar-light bg-light">
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <a className="navbar-brand" href="#">Navbar</a>
-
+        
+        <a className="navbar-brand" href="#">Vision Center</a>
+        
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
@@ -29,7 +28,6 @@ import './App.css';
           </form>
         </div>
       </nav>
-    </div>
     );
 
 
