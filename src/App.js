@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 
-  const App = () => (
+const App = () => (
     <nav>
       <div className="navbar navbar-toggleable-md navbar-light bg-light">
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@ import './App.css';
           </ul> 
         </div>
       </div>
-      </nav>      
+    </nav>      
 );
 
 export default App;
