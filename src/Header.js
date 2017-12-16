@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './Header.css';
 
 const Header = () => (
+    <div className="container">
     <div id="myCarousel" className="carousel slide" data-ride="carousel">
       <ol className="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
@@ -11,14 +12,7 @@ const Header = () => (
       </ol>
       <div className="carousel-inner" role="listbox">
         <div className="carousel-item active">
-          <img className="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide" />
-          <div className="container">
-            <div className="carousel-caption d-none d-md-block text-left">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a className="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
+          <img className="first-slide" src="./stödboende.jpg" alt="First slide" />
         </div>
         <div className="carousel-item">
           <img className="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide" />
@@ -31,7 +25,7 @@ const Header = () => (
           </div>
         </div>
         <div className="carousel-item">
-          <img className="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide" />
+          <img className="third-slide" src="./stödboende-andra.pdf" alt="Third slide" />
           <div className="container">
             <div className="carousel-caption d-none d-md-block text-right">
               <h1>One more for good measure.</h1>
@@ -49,6 +43,7 @@ const Header = () => (
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="sr-only">Next</span>
       </a>
+    </div>
     </div>
 );
 

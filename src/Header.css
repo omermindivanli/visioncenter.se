@@ -13,7 +13,7 @@ header {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 34.1rem;
     background-color: #777;
   }
   .carousel-item > img {

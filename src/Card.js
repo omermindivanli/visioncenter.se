@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
- import './Card.css';
+import './Card.css';
+
+// ana girisi kısalt
 
 const Card = () => (
     <section className="container">
     <hr class="featurette-divider"></hr>
-
+    
     <div className="row featurette">
     <div className="col-md-7">
         <h2 className="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
@@ -39,7 +41,7 @@ const Card = () => (
         <img className="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" />
     </div>
     </div>
-
+    
     <hr className="featurette-divider"></hr>
     </section>
 );
