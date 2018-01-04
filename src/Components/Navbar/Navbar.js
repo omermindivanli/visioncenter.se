@@ -1,16 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './App.css';
+import React, { Component } from 'react';
+import logo from '../../images/logo_visionCenter.jpg';
+import './Navbar.css';
 
-const App = () => (
-    <nav>
+class Navbar extends Component{
+  render(){
+    return(
+      <nav>
       <div className="navbar navbar-toggleable-md navbar-light bg-light">
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
 
         <a className="navbar-brand" href="http://visioncenter.se">
-          <img alt="Vision Center" src="./fav.png" />
+          <img alt="Vision Center" src={logo} />
         </a>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -18,7 +20,7 @@ const App = () => (
             <li className="nav-item dropdown active">
               <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OM OSS</a>
               <ul className="nav-item dropdown-menu">
-                <li className="nav-item active"><a class="nav-link" href="#">GRUNDAREN</a></li>
+                <li className="nav-item active"><a className="nav-link" href="#">GRUNDAREN</a></li>
                 <li><a className="nav-link active" href="#">HISTORIA</a></li>
                 <li><a className="nav-link active" href="#">STADGAR</a></li>
                 <li><a className="nav-link active" href="#">BLI MEDLEM</a></li>
@@ -26,6 +28,7 @@ const App = () => (
                 <li><a className="nav-link active" href="#">STYRELSE</a></li>
               </ul>
             </li>  
+            
             <li className="nav-item active">
               <a className="nav-link" href="#">STÖDBOENDE</a>
             </li> 
@@ -46,7 +49,9 @@ const App = () => (
           </ul> 
         </div>
       </div>
-    </nav>      
-);
+    </nav>
+    );
+  }
+}
 
-export default App;
+export default Navbar;
