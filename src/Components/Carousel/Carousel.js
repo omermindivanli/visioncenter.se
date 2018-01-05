@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import stödboende from '../../images/stödboende.jpg';
+import room_visionCenter from '../../images/room_visionCenter.jpg';
 import room_info_visionCenter from '../../images/room_info_visionCenter.jpg';
 import './Carousel.css';
 
@@ -17,7 +17,7 @@ class Carousel extends Component{
           <img className="d-block img-fluid" src={"https://mitti.se/images/889891-1200x630.jpeg"} alt="First slide" />
         </div>
         <div className="carousel-item">
-          <img className="d-block img-fluid" src={stödboende} alt="Second slide" />
+          <img className="d-block img-fluid" src={room_visionCenter} alt="Second slide" />
         </div>
         <div className="carousel-item">
           <img className="d-block img-fluid" src={room_info_visionCenter} alt="Third slide" />

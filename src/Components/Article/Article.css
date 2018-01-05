@@ -1,12 +1,12 @@
+.main .col-lg-4 {
+  margin-top: 2.5rem;
+  text-align: center;
+}
 
-.marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  .marketing h2 {
-    font-weight: normal;
-  }
-  .marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  }
+.main .col-lg-4 p {
+  padding-top: 20px;
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
