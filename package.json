@@ -16,8 +16,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint-staged": "lint-staged",
-    "format": "prettier --print-width=100 --single-quote --trailing-comma all --write /"{src,__tests__
-    } /**/*.js\""
+    "format":
+      "prettier --print-width=100 --single-quote --trailing-comma all --write /{src,__tests__}/**/*.js\""
   },
   "devDependencies": {
     "eslint": "^4.13.1",
@@ -29,10 +29,7 @@
     "pre-commit": "^1.2.2"
   },
   "lint-staged": {
-    "*.js": [
-      "npm run format",
-      "git add"
-    ]
+    "*.js": ["npm yarn format", "git add"]
   },
   "pre-commit": "lint-staged"
 }

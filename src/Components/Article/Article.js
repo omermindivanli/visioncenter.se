@@ -16,7 +16,8 @@ const Article = () => (
         />
         <h3>Ärligheten</h3>
         <p>
-          Ärligheten innebär att en medlem inte begår brott, att medlemmen ständigt är ärlig mot sig själv och andra samt hela tiden följer gällande lag och uppträder som ett föredöme för andra.</p>
+          Ärligheten innebär att en medlem inte begår brott, att medlemmen ständigt är ärlig mot sig själv och andra samt hela tiden följer gällande lag och uppträder som ett föredöme för andra.
+        </p>
         <p>
           <a className="btn btn-secondary" href="#" role="button">
             View details &raquo;
