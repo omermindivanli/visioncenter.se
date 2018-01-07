@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
-import { BrowserRouter as Router,
+import { 
+  BrowserRouter as Router,
   Route,
-  Link
+  Link,
 } from 'react-router-dom';
 
 import Carousel from '../Carousel/Carousel';
@@ -11,8 +12,7 @@ import Video from '../Video/Video';
 import logo from '../../images/logo_visionCenter.jpg';
 import './Navbar.css';
 
-
-class Navbar_Router extends Component{
+class Navbar_Router  extends Component{
   render(){
     return(
       <Router>
@@ -21,7 +21,6 @@ class Navbar_Router extends Component{
           <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-
           <a className="navbar-brand" href="http://visioncenter.se">
             <img alt="Vision Center" src={logo} />
           </a>

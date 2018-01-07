@@ -10,12 +10,28 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
+    "lint:eslint": "eslint",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint-staged": "lint-staged",
+    "format": "prettier --print-width=100 --single-quote --trailing-comma all --write /{src,__tests__}/**/*.js\""
   },
   "devDependencies": {
-    "eslint": "^4.13.1"
-  }
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "lint-staged": "^6.0.0",
+    "pre-commit": "^1.2.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm yarn format",
+      "git add"
+    ]
+  },
+  "pre-commit": "lint-staged"
 }
