@@ -1,3 +1,0 @@
-{
-    /* Grundaren dennis's bakgrund*/
-}

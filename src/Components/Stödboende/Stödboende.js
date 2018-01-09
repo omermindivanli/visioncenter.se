@@ -3,7 +3,7 @@ import './Stödboende.css';
 
 const Stödboende = () => (
   <div>
-    <h1>slşmdflksmd</h1>
+    <p>Stödboende</p>
   </div>
 );
 

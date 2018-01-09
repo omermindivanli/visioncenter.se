@@ -3,6 +3,8 @@ import React from 'react';
 import room_visionCenter from '../../Assests/room_visionCenter.jpg';
 import room_info_visionCenter from '../../Assests/room_info_visionCenter.jpg';
 
+import './Home.css';
+
 const video = {
   url: 'https://www.youtube.com/embed/FWeP_OjEq54',
 };
@@ -17,17 +19,13 @@ const Home = () => (
       </ol>
       <div className="carousel-inner" role="listbox">
         <div className="carousel-item active">
-          <img
-            className="d-block img-fluid"
-            src={'https://mitti.se/images/889891-1200x630.jpeg'}
-            alt="First slide"
-          />
+          <img className="d-block img-fluid" src={''} alt="First slide" />
         </div>
         <div className="carousel-item">
-          <img className="d-block img-fluid" src={room_visionCenter} alt="Second slide" />
+          <img className="d-block img-fluid" src={''} alt="Second slide" />
         </div>
         <div className="carousel-item">
-          <img className="d-block img-fluid" src={room_info_visionCenter} alt="Third slide" />
+          <img className="d-block img-fluid" src={''} alt="Third slide" />
         </div>
       </div>
       <a
@@ -115,7 +113,6 @@ const Home = () => (
       </div>
     </div>
 
-    {/* Footer Constant for Home Page */}
     <section className="container">
       <hr className="featurette-divider" />
       <div className="row featurette">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Kontakt = () => (
   <div>
-    <p>Konakmsdtak</p>
+    <p>Kontakt</p>
   </div>
 );
 

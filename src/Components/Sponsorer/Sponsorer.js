@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sponsorer = () => (
   <div>
-    <p>sldkmflks</p>
+    <p>Sponsorer</p>
   </div>
 );
 
