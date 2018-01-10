@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sponsorer = () => (
   <div>
-    <p>Sponsorer</p>
+    <p className="container">Sponsorer</p>
   </div>
 );
 

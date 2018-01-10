@@ -1,3 +1,9 @@
+import React from 'react';
+
+const Historia = () => <p className="container">Historia</p>;
+
+export default Historia;
+
 {
   /* Första mail
     X-CONS Haninge är en fristående lokalförening. 

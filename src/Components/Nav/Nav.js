@@ -72,13 +72,13 @@ const Nav = () => (
             VERKSAMHETER
           </a>
           <ul className="nav-item dropdown-menu">
-            <Link className="nav-item active" to="/stadgar">
+            <Link className="nav-item active" to="/aktiviteter">
               <a className="nav-link">AKTIVITETER</a>
             </Link>
-            <Link className="nav-item active" to="/stadgar">
+            <Link className="nav-item active" to="/miljöArbete">
               <a className="nav-link active">MILJÖ ARBETE</a>
             </Link>
-            <Link className="nav-item active" to="/stadgar">
+            <Link className="nav-item active" to="/film">
               <a className="nav-link active">FILM</a>
             </Link>
           </ul>

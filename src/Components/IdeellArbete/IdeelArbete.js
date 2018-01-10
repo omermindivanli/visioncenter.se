@@ -1,3 +1,0 @@
-{
-  /* Det samma i hemsidan */
-}

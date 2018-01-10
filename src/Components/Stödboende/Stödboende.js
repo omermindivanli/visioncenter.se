@@ -1,10 +1,6 @@
 import React from 'react';
 import './Stödboende.css';
 
-const Stödboende = () => (
-  <div>
-    <p>Stödboende</p>
-  </div>
-);
+const Stödboende = () => <p className="container">Stödboende</p>;
 
 export default Stödboende;
