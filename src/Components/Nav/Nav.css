@@ -1,27 +1,28 @@
 nav {
+  background-color: white;
   font-family: 'Oswald', sans-serif;
-  background-color: lightgray;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  border-bottom: solid green 3px;
 }
 
 .navbar-brand {
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .navbar-brand img {
-  margin-right: 390px;
-  width: 145px;
-  height: 145px;
+  margin-right: 70px;
+  width: 176px;
+  height: 178px;
 }
-/* nav-link farklı renk olacak kuculecek*/
 
-li a {
-  margin: 8px;
-  font-size: 20px;
+.nav-link img {
+  margin-top: 17px;
+  width: 30px;
+  height: 18px;
 }
 
 .dropdown-menu a {
-  font-size: 20px;
+  font-size: 19px;
   font-style: normal;
 }
 
@@ -34,6 +35,20 @@ li a {
   background-color: #63b25e;
 }
 
-.collapse .navbar-collapse li {
-  font-size: 200px;
+.nav-link {
+  font-size: 22px;
+}
+
+#greenButton {
+  color: green;
+}
+
+#greenButton:hover {
+  color: white;
+  background-color: green;
+  border-radius: 30px;
+}
+
+#blueButton {
+  color: royalblue;
 }

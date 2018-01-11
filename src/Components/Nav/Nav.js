@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
-import logo from '../../Assests/logo_visionCenter.jpg';
+import icon from '../../Assests/icon.png';
 
 const Nav = () => (
   <nav className="navbar navbar-toggleable-md navbar-light bg-light">
@@ -18,13 +18,19 @@ const Nav = () => (
     </button>
 
     <a className="navbar-brand">
-      <img alt="Vision Center" src={logo} />
+      <img alt="Vision Center" src={icon} />
     </a>
 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
-        <Link className="nav-link dropdown active" to="/">
+        <Link className="nav-link active" to="/">
+          <a className="nav-link active" id="greenButton">
+            HEM
+          </a>
+        </Link>
+        <Link className="nav-link dropdown active" to="/grundaren">
           <a
+            id="greenButton"
             href="#"
             className="nav-link dropdown-toggle"
             data-toggle="dropdown"
@@ -36,33 +42,50 @@ const Nav = () => (
           </a>
           <ul className="nav-item dropdown-menu">
             <Link className="nav-item active" to="/grundaren">
-              <a className="nav-link">GRUNDAREN</a>
+              <a className="nav-link active" id="greenButton">
+                GRUNDAREN
+              </a>
             </Link>
             <Link className="nav-item active" to="/historia">
-              <a className="nav-link active">HISTORIA</a>
+              <a id="greenButton" className="nav-link active">
+                HISTORIA
+              </a>
             </Link>
             <Link className="nav-item active" to="/omvisioncenter">
-              <a className="nav-link">OM VISION CENTER</a>
+              <a id="greenButton" className="nav-link active">
+                OM VISION CENTER
+              </a>
             </Link>
             <Link className="nav-item active" to="/stadgar">
-              <a className="nav-link active">STADGAR</a>
+              <a id="greenButton" className="nav-link active">
+                STADGAR
+              </a>
             </Link>
             <Link className="nav-item active" to="/blimedlem">
-              <a className="nav-link active">BLI MEDLEM</a>
+              <a id="greenButton" className="nav-link active">
+                BLI MEDLEM
+              </a>
             </Link>
             <Link className="nav-item active" to="/ideellarbete">
-              <a className="nav-link active">IDEELL ARBETE</a>
+              <a id="greenButton" className="nav-link active">
+                IDEELL ARBETE
+              </a>
             </Link>
             <Link className="nav-item active" to="/styrelse">
-              <a className="nav-link active">STYRELSE</a>
+              <a id="greenButton" className="nav-link active">
+                STYRELSE
+              </a>
             </Link>
           </ul>
         </Link>
         <Link className="nav-link active" to="/stödboende">
-          <a className="nav-link">STÖDBOENDE</a>
+          <a id="greenButton" className="nav-link">
+            STÖDBOENDE
+          </a>
         </Link>
         <Link className="nav-link dropdown active" to="/verksamheter">
           <a
+            id="greenButton"
             className="nav-link dropdown-toggle"
             data-toggle="dropdown"
             role="button"
@@ -73,22 +96,46 @@ const Nav = () => (
           </a>
           <ul className="nav-item dropdown-menu">
             <Link className="nav-item active" to="/aktiviteter">
-              <a className="nav-link">AKTIVITETER</a>
+              <a id="greenButton" className="nav-link">
+                AKTIVITETER
+              </a>
             </Link>
             <Link className="nav-item active" to="/miljöArbete">
-              <a className="nav-link active">MILJÖ ARBETE</a>
+              <a id="greenButton" className="nav-link active">
+                MILJÖ ARBETE
+              </a>
             </Link>
             <Link className="nav-item active" to="/film">
-              <a className="nav-link active">FILM</a>
+              <a id="greenButton" className="nav-link active">
+                FILM
+              </a>
             </Link>
           </ul>
         </Link>
         <Link className="nav-link active" to="/sponsorer">
-          <a className="nav-link">SPONSORER</a>
+          <a id="greenButton" className="nav-link">
+            SPONSORER
+          </a>
+        </Link>
+        <Link className="nav-link active" to="/turkiet">
+          <a id="greenButton" className="nav-link">
+            TURKIET
+          </a>
         </Link>
         <Link className="nav-link active" to="/kontakt">
-          <a className="nav-link">KONTAKT</a>
+          <a id="greenButton" className="nav-link">
+            KONTAKT
+          </a>
         </Link>
+        <li className="nav-link active">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/1200px-Flag_of_Sweden.svg.png" />
+        </li>
+        <li className="nav-link active">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png" />
+        </li>
+        <li className="nav-link active">
+          <img src="https://img00.deviantart.net/d88d/i/2012/283/4/7/turkish_flag_003_by_johnlegendre-d5hdmop.png" />
+        </li>
       </ul>
     </div>
   </nav>
