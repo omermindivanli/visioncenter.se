@@ -10,45 +10,98 @@ const video = {
 };
 
 const Home = () => (
-  <div>
-    <div id="carouselExampleIndicators" className="container carousel slide" data-ride="carousel">
-      <ol className="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active" />
-        <li data-target="#carouselExampleIndicators" data-slide-to="1" />
-        <li data-target="#carouselExampleIndicators" data-slide-to="2" />
+  <div className="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active" />
+        <li data-target="#myCarousel" data-slide-to="1" />
+        <li data-target="#myCarousel" data-slide-to="2" />
       </ol>
-      <div className="carousel-inner" role="listbox">
-        <div className="carousel-item active">
-          <img className="d-block img-fluid" src={''} alt="First slide" />
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="first-slide"
+            src="http://ssder.org.tr/wp-content/uploads/2017/08/DSC_0166a.jpg"
+            alt="First slide"
+          />
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>Example headline.</h1>
+              <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#" role="button">
+                  Sign up today
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="carousel-item">
-          <img className="d-block img-fluid" src={''} alt="Second slide" />
+        <div class="carousel-item">
+          <img class="second-slide" src="" alt="Second slide" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>
+                v Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#" role="button">
+                  Learn more
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="carousel-item">
-          <img className="d-block img-fluid" src={''} alt="Third slide" />
+        <div class="carousel-item">
+          <img
+            class="third-slide"
+            src="https://pbs.twimg.com/media/DMsBcL_W4AEoKUI.jpg"
+            alt="Third slide"
+          />
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>One more for good measure.</h1>
+              <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#" role="button">
+                  Browse gallery
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <a
-        className="carousel-control-prev"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true" />
-        <span className="sr-only">Previous</span>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true" />
+        <span class="sr-only">Previous</span>
       </a>
-      <a
-        className="carousel-control-next"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true" />
-        <span className="sr-only">Next</span>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true" />
+        <span class="sr-only">Next</span>
       </a>
     </div>
 
-    <div className="container main">
+    <div className="embed-responsive embed-responsive-16by9">
+      <iframe
+        className="embed-responsive-item"
+        width="1000"
+        height="360"
+        src={video.url}
+        gesture="media"
+        allow="encrypted-media"
+        allowFullScreen
+        title="Vision Center"
+      />
+    </div>
+
+    <div className="container">
       <hr className="featurette-divider" />
       <h2 className="text-center">Vårt Motto Är</h2>
       <div className="row">
@@ -67,7 +120,7 @@ const Home = () => (
             för andra.
           </p>
           <p>
-            <a className="btn btn-secondary" href="#" role="button">
+            <a className="btn btn-secondary" href="./grundaren" role="button">
               View details &raquo;
             </a>
           </p>
@@ -181,7 +234,6 @@ const Home = () => (
           />
         </div>
       </div>
-      <hr className="featurette-divider" />
     </section>
   </div>
 );

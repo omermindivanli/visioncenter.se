@@ -2,6 +2,7 @@ import React from 'react';
 
 const Historia = () => (
   <div className="container">
+    <h2 className="">Historia</h2>
     <p>
       X-CONS Haninge är en fristående lokalförening. Förutom vad som gäller för X-CONS enligt ovan
       har denna förening fokuserat på förebyggande arbete med ungdomar, särskilt de i riskzon för

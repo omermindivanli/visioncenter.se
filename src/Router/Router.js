@@ -18,6 +18,7 @@ import Verksamheter from '../Components/Verksamheter/Verksamheter';
 import Sponsorer from '../Components/Sponsorer/Sponsorer';
 import Kontakt from '../Components/Kontakt/Kontakt';
 import Turkiet from '../Components/Turkiet/Turkiet';
+import SocialMedia from '../Components/SocialMedia/SocialMedia';
 import Footer from '../Components/Footer/Footer';
 
 const routers = () => (
@@ -33,7 +34,7 @@ const routers = () => (
       <Route exact path="/blimedlem" component={BliMedlem} />
       <Route exact path="/ideellarbete" component={IdeellArbete} />
       <Route exact path="/styrelse" component={Styrelse} />
-      <Route exact path="/aktiviteter" component={Aktiviteter} />
+      <Route exact path="/activities" component={Aktiviteter} />
       <Route exact path="/miljöArbete" component={MiljöArbete} />
       <Route exact path="/film" component={Film} />
       <Route exact path="/stödboende" component={Stödboende} />
@@ -41,6 +42,8 @@ const routers = () => (
       <Route exact path="/sponsorer" component={Sponsorer} />
       <Route exact path="/turkiet" component={Turkiet} />
       <Route exact path="/kontakt" component={Kontakt} />
+
+      <SocialMedia />
       <Footer />
     </div>
   </Router>

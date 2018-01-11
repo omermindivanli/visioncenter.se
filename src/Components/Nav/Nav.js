@@ -4,7 +4,7 @@ import './Nav.css';
 import icon from '../../Assests/icon.png';
 
 const Nav = () => (
-  <nav className="navbar navbar-toggleable-md navbar-light bg-light">
+  <nav className="navbar navbar-toggleable-md navbar-light sticky-top bg-light">
     <button
       className="navbar-toggler navbar-toggler-right"
       type="button"
@@ -95,7 +95,7 @@ const Nav = () => (
             VERKSAMHETER
           </a>
           <ul className="nav-item dropdown-menu">
-            <Link className="nav-item active" to="/aktiviteter">
+            <Link className="nav-item active" to="/activities">
               <a id="greenButton" className="nav-link">
                 AKTIVITETER
               </a>
@@ -140,5 +140,9 @@ const Nav = () => (
     </div>
   </nav>
 );
+
+const video = {
+  url: 'https://youtu.be/FWeP_OjEq54',
+};
 
 export default Nav;
