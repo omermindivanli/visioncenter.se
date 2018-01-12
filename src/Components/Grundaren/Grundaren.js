@@ -3,12 +3,12 @@ import './Grundaren.css';
 const Grundaren = () => (
   <div className="container">
     <div className="grundaren">
-      <h2 className="col-lg-8">Grundaren</h2>
+      <h2 className="col-lg-9">Grundaren</h2>
       <img
         src={
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXT1ZF5IA5az8aOGh4-yTu_jxji1kkxTkUxeSpWjvWGdYFXubm'
+          'http://www.habername.com/images/other/sema1706-uyusturucu-bana-kimligimi-unutturdu4.20120623024028.jpg'
         }
-        className="float-right"
+        className="shadow-box img-fluid float-right"
       />
       <p className="col-lg-8">
         ”Min bakgrund är mitt verktyg till att hjälpa andra in på bättre vägar. På gott och ont har
@@ -24,6 +24,7 @@ const Grundaren = () => (
         landet. Han säger själv ”Ingen såg mig”. Frustrationen tog honom till slut till droger,
         spelmissbruk och kriminalitet.
       </p>
+
       <p className="col-lg-12">
         2008 blev han fri från allt och bestämde sig för att använda sin energi till att hjälpa
         andra, speciellt ungdomar så att de inte ska behöva uppleva det som han gjorde. 2009
@@ -31,7 +32,9 @@ const Grundaren = () => (
         föreningen ändrade namn till Vision Center berodde på två saker:
       </p>
       <ul>
-        <li>Samhället sätter ofta en negativ stämpel på en organisation som heter X-CONS.</li>
+        <li>
+          Samhället sätter ofta en negativ stämpel på en organisation som heter Vision Center.
+        </li>
         <li>
           Vi ville betona att vi kämpar för att alla ska känna att de har en vision/framtidsdröm.
         </li>

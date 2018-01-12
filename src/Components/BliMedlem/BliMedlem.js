@@ -2,9 +2,20 @@ import React from 'react';
 import './BliMedlem.css';
 
 const BliMedlem = () => (
-  <div className="container">
+  <div className="container col-xl-3">
     <form className="form-signin" />
     <h2 className="form-signin-heading">Please sign in</h2>
+    <label for="inputEmail" className="sr-only">
+      Namn och Förnamn
+    </label>
+    <input
+      type="namn"
+      id="namn"
+      className="form-control"
+      placeholder="Namn och Förnamn"
+      required
+      autofocus
+    />
     <label for="inputEmail" className="sr-only">
       Email address
     </label>

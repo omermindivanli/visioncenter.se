@@ -1,8 +1,14 @@
 import React from 'react';
 
 const Historia = () => (
-  <div className="container">
+  <div className="container col-md-9">
     <h2 className="">Historia</h2>
+    <img
+      src={
+        'https://scontent-iad3-1.cdninstagram.com/t51.2885-15/s480x480/e15/10731585_311959339007308_1422300678_n.jpg?ig_cache_key=ODMzNDQ3MTMwNjAzMTI5MjUy.2'
+      }
+      className="col-md-4 float-right"
+    />
     <p>
       Vision Center är en fristående lokalförening. Förutom vad som gäller för Vision Center enligt
       ovan har denna förening fokuserat på förebyggande arbete med ungdomar, särskilt de i riskzon

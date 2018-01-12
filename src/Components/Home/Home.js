@@ -36,7 +36,7 @@ const Home = () => (
         <div class="carousel-item">
           <img
             class="img-fluid third-slide"
-            src="            http://x-conshaninge.se/x/wp-content/uploads/2017/04/Föreläsning-slider-kopia-1.jpg"
+            src="http://x-conshaninge.se/x/wp-content/uploads/2017/04/Föreläsning-slider-kopia-1.jpg"
             alt="Third slide"
           />
           <div class="container" />
@@ -105,7 +105,7 @@ const Home = () => (
             medlemmen respekterar andra människors rätt till en egen uppfattning.
           </p>
           <p>
-            <a className="btn btn-secondary" href="#" role="button">
+            <a className="btn btn-secondary" href="./ideellarbete" role="button">
               View details &raquo;
             </a>
           </p>
@@ -124,7 +124,7 @@ const Home = () => (
             föreningens aktiviteter och på annat sätt verkar för föreningens syften.
           </p>
           <p>
-            <a className="btn btn-secondary" href="#" role="button">
+            <a className="btn btn-secondary" href="./turkiet" role="button">
               View details &raquo;
             </a>
           </p>

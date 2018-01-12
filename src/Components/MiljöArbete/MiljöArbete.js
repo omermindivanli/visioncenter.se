@@ -1,5 +1,9 @@
 import React from 'react';
 
-const MiljöArbete = () => <p className="container">MiljöArbete</p>;
+const MiljöArbete = () => (
+  <div class="album text-muted">
+    <p />
+  </div>
+);
 
 export default MiljöArbete;

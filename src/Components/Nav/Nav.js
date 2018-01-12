@@ -130,10 +130,10 @@ const Nav = () => (
           <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/1200px-Flag_of_Sweden.svg.png" />
         </li>
         <li className="nav-link active">
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png" />
+          <img src="https://img00.deviantart.net/d88d/i/2012/283/4/7/turkish_flag_003_by_johnlegendre-d5hdmop.png" />
         </li>
         <li className="nav-link active">
-          <img src="https://img00.deviantart.net/d88d/i/2012/283/4/7/turkish_flag_003_by_johnlegendre-d5hdmop.png" />
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png" />
         </li>
       </ul>
     </div>
