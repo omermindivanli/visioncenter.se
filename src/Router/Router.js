@@ -14,7 +14,6 @@ import Aktiviteter from '../Components/Aktiviteter/Aktiviteter';
 import MiljöArbete from '../Components/MiljöArbete/MiljöArbete';
 import Film from '../Components/Film/Film';
 import Stödboende from '../Components/Stödboende/Stödboende';
-import Verksamheter from '../Components/Verksamheter/Verksamheter';
 import Sponsorer from '../Components/Sponsorer/Sponsorer';
 import Kontakt from '../Components/Kontakt/Kontakt';
 import Turkiet from '../Components/Turkiet/Turkiet';
@@ -38,7 +37,7 @@ const routers = () => (
       <Route exact path="/miljöArbete" component={MiljöArbete} />
       <Route exact path="/film" component={Film} />
       <Route exact path="/stödboende" component={Stödboende} />
-      <Route exact path="/verksamheter" component={Verksamheter} />
+      <Route exact path="/verksamheter" component={Aktiviteter} />
       <Route exact path="/sponsorer" component={Sponsorer} />
       <Route exact path="/turkiet" component={Turkiet} />
       <Route exact path="/kontakt" component={Kontakt} />

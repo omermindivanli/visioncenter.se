@@ -12,13 +12,14 @@ const Nav = () => (
       class="navbar-toggler"
       type="button"
       data-toggle="collapse"
-      data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
       <span class="navbar-toggler-icon" />
     </button>
+
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
         <Link className="nav-link active" to="/">
@@ -28,11 +29,11 @@ const Nav = () => (
         </Link>
         <Link className="nav-link dropdown active" to="/grundaren">
           <a
-            id="greenButton"
+            class="nav-link dropdown-toggle"
             href="#"
-            className="nav-link dropdown-toggle"
-            data-toggle="dropdown"
+            id="greenButton"
             role="button"
+            data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
@@ -81,7 +82,7 @@ const Nav = () => (
             STÖDBOENDE
           </a>
         </Link>
-        <Link className="nav-link dropdown active" to="/verksamheter">
+        <Link className="nav-link dropdown active" to="/aktiviteter">
           <a
             id="greenButton"
             className="nav-link dropdown-toggle"

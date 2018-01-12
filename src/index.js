@@ -4,6 +4,6 @@ import Router from './Router/Router';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Router />, document.getElementById('routers'));
+ReactDOM.render(<Router />, document.getElementById('main'));
 
 registerServiceWorker();
