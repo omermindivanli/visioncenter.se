@@ -20,62 +20,26 @@ const Home = () => (
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            class="first-slide"
-            src="http://ssder.org.tr/wp-content/uploads/2017/08/DSC_0166a.jpg"
+            class="img-fluid first-slide"
+            src="http://x-conshaninge.se/x/wp-content/uploads/2017/04/Boende-slider-3.jpg"
             alt="First slide"
           />
-          <div class="container">
-            <div class="carousel-caption text-left">
-              <h1>Example headline.</h1>
-              <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
-                porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-              </p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="#" role="button">
-                  Sign up today
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="second-slide" src="" alt="Second slide" />
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>
-                v Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
-                porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-              </p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="#" role="button">
-                  Learn more
-                </a>
-              </p>
-            </div>
-          </div>
+          <div class="container" />
         </div>
         <div class="carousel-item">
           <img
-            class="third-slide"
-            src="https://pbs.twimg.com/media/DMsBcL_W4AEoKUI.jpg"
+            class="img-fluid second-slide"
+            src="http://x-conshaninge.se/x/wp-content/uploads/2017/04/fritids.jpg"
+            alt="Second slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="img-fluid third-slide"
+            src="            http://x-conshaninge.se/x/wp-content/uploads/2017/04/Föreläsning-slider-kopia-1.jpg"
             alt="Third slide"
           />
-          <div class="container">
-            <div class="carousel-caption text-right">
-              <h1>One more for good measure.</h1>
-              <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
-                porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-              </p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="#" role="button">
-                  Browse gallery
-                </a>
-              </p>
-            </div>
-          </div>
+          <div class="container" />
         </div>
       </div>
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">

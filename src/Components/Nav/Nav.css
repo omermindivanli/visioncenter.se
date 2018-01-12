@@ -2,8 +2,8 @@ nav {
   position: sticky;
   background-color: white;
   font-family: 'Oswald', sans-serif;
-  margin-bottom: 25px;
-  border-bottom: solid green 3px;
+  margin-bottom: 15px;
+  border-bottom: solid green 2px;
 }
 
 .navbar-brand {
@@ -12,8 +12,8 @@ nav {
 
 .navbar-brand img {
   margin-right: 70px;
-  height: 125px;
-  width: 120px;
+  height: 105px;
+  width: 100px;
 }
 
 .nav-link img {
@@ -23,7 +23,7 @@ nav {
 }
 
 .dropdown-menu a {
-  font-size: 17px;
+  font-size: 19px;
   font-style: normal;
 }
 
@@ -48,14 +48,4 @@ nav {
   color: white;
   background-color: green;
   border-radius: 30px;
-}
-
-#blueButton {
-  color: royalblue;
-}
-
-#greenButton {
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
 }

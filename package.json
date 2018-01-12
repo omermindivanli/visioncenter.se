@@ -17,7 +17,7 @@
     "eject": "react-scripts eject",
     "lint-staged": "lint-staged",
     "format":
-      "prettier --print-width=100 --single-quote --trailing-comma all --write /"{src,__tests__}/**/*.js\""
+      "prettier --print-width=100 --single-quote --trailing-comma all --write /{src,__tests__}/**/*.js\""
   },
   "devDependencies": {
     "eslint": "^4.13.1",
