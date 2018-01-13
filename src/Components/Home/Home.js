@@ -1,7 +1,6 @@
 import React from 'react';
 
 import room_visionCenter from '../../Assests/room_visionCenter.jpg';
-import room_info_visionCenter from '../../Assests/room_info_visionCenter.jpg';
 
 import './Home.css';
 

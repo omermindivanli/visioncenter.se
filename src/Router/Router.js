@@ -33,11 +33,10 @@ const routers = () => (
       <Route exact path="/blimedlem" component={BliMedlem} />
       <Route exact path="/ideellarbete" component={IdeellArbete} />
       <Route exact path="/styrelse" component={Styrelse} />
-      <Route exact path="/activities" component={Aktiviteter} />
+      <Route exact path="/aktiviteter" component={Aktiviteter} />
       <Route exact path="/miljöArbete" component={MiljöArbete} />
       <Route exact path="/film" component={Film} />
       <Route exact path="/stödboende" component={Stödboende} />
-      <Route exact path="/verksamheter" component={Aktiviteter} />
       <Route exact path="/sponsorer" component={Sponsorer} />
       <Route exact path="/turkiet" component={Turkiet} />
       <Route exact path="/kontakt" component={Kontakt} />

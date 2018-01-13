@@ -94,7 +94,7 @@ const Nav = () => (
             VERKSAMHETER
           </a>
           <ul className="nav-item dropdown-menu">
-            <Link className="nav-item active" to="/activities">
+            <Link className="nav-item active" to="/aktiviteter">
               <a id="greenButton" className="nav-link">
                 AKTIVITETER
               </a>
