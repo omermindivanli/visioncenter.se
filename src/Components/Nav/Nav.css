@@ -23,6 +23,7 @@ nav {
 }
 
 .dropdown-menu a {
+  text-decoration: none;
   font-size: 19px;
   font-style: normal;
 }

@@ -17,12 +17,7 @@
       }
     ]
   },
-  "plugins": [
-    "react",
-    "jsx-a11y",
-    "import",
-    "prettier"
-  ],
+  "plugins": ["react", "jsx-a11y", "import", "prettier"],
   "env": {
     "jest": true,
     "browser": true

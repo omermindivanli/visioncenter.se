@@ -10,44 +10,44 @@ const video = {
 
 const Home = () => (
   <div className="container">
-    <div id="myCarousel" class="shadow-box carousel slide" data-ride="carousel">
+    <div id="myCarousel" className="shadow-box carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active" />
+        <li data-target="#myCarousel" data-slide-to="0" className="active" />
         <li data-target="#myCarousel" data-slide-to="1" />
         <li data-target="#myCarousel" data-slide-to="2" />
       </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
           <img
-            class="img-fluid first-slide"
+            className="img-fluid first-slide"
             src="http://x-conshaninge.se/x/wp-content/uploads/2017/04/Boende-slider-3.jpg"
             alt="First slide"
           />
-          <div class="container" />
+          <div className="container" />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
-            class="img-fluid second-slide"
+            className="img-fluid second-slide"
             src="http://x-conshaninge.se/x/wp-content/uploads/2017/04/fritids.jpg"
             alt="Second slide"
           />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
-            class="img-fluid third-slide"
+            className="img-fluid third-slide"
             src="http://x-conshaninge.se/x/wp-content/uploads/2017/04/Föreläsning-slider-kopia-1.jpg"
             alt="Third slide"
           />
-          <div class="container" />
+          <div className="container" />
         </div>
       </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true" />
-        <span class="sr-only">Previous</span>
+      <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span className="carousel-control-prev-icon" aria-hidden="true" />
+        <span className="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true" />
-        <span class="sr-only">Next</span>
+      <a className="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span className="carousel-control-next-icon" aria-hidden="true" />
+        <span className="sr-only">Next</span>
       </a>
     </div>
 

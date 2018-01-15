@@ -8,8 +8,9 @@ const Stadgar = () => (
       <h2 className="container">Stadgar</h2>
       <h5 className="container">Namn och Syfte</h5>
       <img
+        alt=""
         className="img-fluid col-6 shadow-box float-right"
-        src={'http://dreamicus.com/data/justice/justice-05.jpg'}
+        src="http://dreamicus.com/data/justice/justice-05.jpg"
       />
       <p className="col-lg-12">Föreningens namn är VISION CENTER SWEDEN</p>
       <p className="col-lg-12">
@@ -68,6 +69,7 @@ const Stadgar = () => (
         uteslutningen.
       </p>
     </div>
+
     <p className="col-lg-12">Fullt medlemskap erhålles endast om årsavgift erlagts.</p>
     <p className="col-lg-12">
       Medlem kan när som helst begära utträde ur föreningen. I förekommande fall kvarstår dock

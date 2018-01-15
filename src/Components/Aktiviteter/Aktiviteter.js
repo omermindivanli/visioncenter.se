@@ -53,8 +53,10 @@ const Aktiviteter = () => (
       src={'http://i.ytimg.com/vi/-6CiwGgQw-E/0.jpg'}
       className="shadow-box col-md-5 img-fluid"
     />
-     <img
-      src={'http://www.habername.com/images/other/sema1706-uyusturucu-bana-kimligimi-unutturdu5.jpg'}
+    <img
+      src={
+        'http://www.habername.com/images/other/sema1706-uyusturucu-bana-kimligimi-unutturdu5.jpg'
+      }
       className="shadow-box col-md-5 img-fluid"
     />
     <img

@@ -4,41 +4,48 @@ import './Kontakt.css';
 const Kontakt = () => (
   <div className="container">
     <h2 className="container">Kontakt</h2>
-    <div class="container">
-      <div class="row">
-        <div class="container col-md-8">
-          <div class="well well-sm">
-            <form>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="name">Name</label>
+    <div className="container">
+      <div className="row">
+        <div className="container col-md-8">
+          <div className="well well-sm">
+            <form method="POST">
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="form-group">
+                    <label htmlFor="" className="name">
+                      Name
+                    </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter name"
                       required="required"
                     />
                   </div>
-                  <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <div class="input-group">
-                      <span class="input-group-addon">
-                        <span class="glyphicon glyphicon-envelope" />
+                  <div className="form-group">
+                    <label hmtlFor="email">Email Address</label>
+                    <div className="input-group">
+                      <span className="input-group-addon">
+                        <span className="glyphicon glyphicon-envelope" />
                       </span>
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="email"
                         placeholder="Enter email"
                         required="required"
                       />
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <select id="subject" name="subject" class="form-control" required="required">
+                  <div className="form-group">
+                    <label htmlFor="subject">Subject</label>
+                    <select
+                      id="subject"
+                      name="subject"
+                      className="form-control"
+                      required="required"
+                    >
                       <option value="na" selected="">
                         Choose One:
                       </option>
@@ -48,13 +55,13 @@ const Kontakt = () => (
                     </select>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="name">Message</label>
+                <div className="col-md-6">
+                  <div className="form-group">
+                    <label htmlFor="name">Message</label>
                     <textarea
                       name="message"
                       id="message"
-                      class="form-control"
+                      className="form-control"
                       rows="8"
                       cols="25"
                       required="required"
@@ -62,8 +69,8 @@ const Kontakt = () => (
                     />
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                <div className="col-md-12">
+                  <button type="submit" className="btn btn-primary pull-right" id="btnContactUs">
                     Send Message
                   </button>
                 </div>
@@ -71,10 +78,10 @@ const Kontakt = () => (
             </form>
           </div>
         </div>
-        <div class="col-md-4">
+        <div className="col-md-4">
           <form />
           <legend>
-            <span class="glyphicon glyphicon-globe" /> Our office
+            <span className="glyphicon glyphicon-globe" /> Our office
           </legend>
           <address>
             <strong>SWEDEN Vision Center, AB.</strong>

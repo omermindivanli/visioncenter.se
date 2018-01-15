@@ -34,9 +34,8 @@ const Turkiet = () => (
       </p>
       <img
         className="col-md-4 img-fluid float-right"
-        src={
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUDKWfIFQgJR1gyODcp5zrKChmHw5Tli5wC3TozxP8R6Zxl-FjCA'
-        }
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUDKWfIFQgJR1gyODcp5zrKChmHw5Tli5wC3TozxP8R6Zxl-FjCA"
+        alt=""
       />
       <p>
         İsveç’te dil ve kültür çatışması nedeniyle kendisini çok yalnız hisseden Derviş AKSAY güzel
@@ -62,36 +61,36 @@ const Turkiet = () => (
         elini uzatıyor ki bu konuda çok başarılı olmuştur.
       </p>
       <div className="container col-md-5">
-        <div id="myCarousel" class="shadow-box carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active" />
+        <div id="myCarousel" className="shadow-box carousel slide" data-ride="carousel">
+          <ol className="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" className="active" />
             <li data-target="#myCarousel" data-slide-to="1" />
             <li data-target="#myCarousel" data-slide-to="2" />
           </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="img-fluid first-slide" src={icon_turkey} alt="First slide" />
-              <div class="container" />
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img className="img-fluid first-slide" src={icon_turkey} alt="First slide" />
+              <div className="container" />
             </div>
-            <div class="carousel-item">
-              <img class="img-fluid second-slide" src={turkiet2} alt="Second slide" />
+            <div className="carousel-item">
+              <img className="img-fluid second-slide" src={turkiet2} alt="Second slide" />
             </div>
-            <div class="carousel-item">
-              <img class="img-fluid third-slide" src={turkiet3} alt="Third slide" />
-              <div class="container" />
+            <div className="carousel-item">
+              <img className="img-fluid third-slide" src={turkiet3} alt="Third slide" />
+              <div className="container" />
             </div>
-            <div class="carousel-item">
-              <img class="img-fluid fourth-slide" src={turkiet4} alt="Fourth slide" />
-              <div class="container" />
+            <div className="carousel-item">
+              <img className="img-fluid fourth-slide" src={turkiet4} alt="Fourth slide" />
+              <div className="container" />
             </div>
           </div>
-          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true" />
-            <span class="sr-only">Previous</span>
+          <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true" />
+            <span className="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true" />
-            <span class="sr-only">Next</span>
+          <a className="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true" />
+            <span className="sr-only">Next</span>
           </a>
         </div>
       </div>

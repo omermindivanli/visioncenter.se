@@ -5,8 +5,9 @@ const Styrelse = () => (
     <div className="styrelse">
       <h2 className="col-lg-9">Styrelse</h2>
       <img
-        src={'https://farm9.static.flickr.com/8442/7957653880_87d1244c65_b.jpg'}
+        src="https://farm9.static.flickr.com/8442/7957653880_87d1244c65_b.jpg"
         className="shadow-box col-md-6 img-fluid float-right"
+        alt=""
       />
       <p className="col-lg-9">
         Dervis ”Dennis” Aksay är uppvuxen i Turkiet med hederskultur som måttstock. Han blev som

@@ -6,6 +6,7 @@ const IdeellArbete = () => (
     <img
       src="http://x-cons.se/wp-content/uploads/2015/06/img_4.jpg"
       className="col-md-4 float-right"
+      alt=""
     />
     <p>
       Vi tar hjärna emot volontärhjälp. Vi behöver vuxna förebilder som kan närvara på fritidsgården

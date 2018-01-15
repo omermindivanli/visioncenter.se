@@ -1,5 +1,6 @@
 import React from 'react';
 import './Film.css';
+
 const Film = () => (
   <div className="container">
     <div className="filmBoken">
@@ -14,16 +15,16 @@ const Film = () => (
         hennes liv.
       </p>
       <iframe
+        title="VisionCenter Video"
         className="shadow-box"
         width="1080"
         height="600"
         src="https://www.youtube.com/embed/VwQDzmyPRI8"
-        frameborder="0"
         allow="autoplay; encrypted-media"
-        allowfullscreen
       />
       <h2>Boken</h2>
       <img
+        alt=""
         src="https://www.ginza.se/Archive/Images/item_img_600/692790.jpg"
         className="col-md-2 float-right"
       />
