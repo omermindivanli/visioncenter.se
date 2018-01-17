@@ -11,9 +11,9 @@ import BliMedlem from '../Components/BliMedlem/BliMedlem';
 import IdeellArbete from '../Components/IdeellArbete/IdeellArbete';
 import Styrelse from '../Components/Styrelse/Styrelse';
 import Aktiviteter from '../Components/Aktiviteter/Aktiviteter';
-import MiljöArbete from '../Components/MiljöArbete/MiljöArbete';
+import MiljArbete from '../Components/MiljArbete/MiljArbete';
 import Film from '../Components/Film/Film';
-import Stödboende from '../Components/Stödboende/Stödboende';
+import StudentHouse from '../Components/StudentHouse/StudentHouse';
 import Sponsorer from '../Components/Sponsorer/Sponsorer';
 import Kontakt from '../Components/Kontakt/Kontakt';
 import Turkiet from '../Components/Turkiet/Turkiet';
@@ -34,9 +34,9 @@ const routers = () => (
       <Route exact path="/ideellarbete" component={IdeellArbete} />
       <Route exact path="/styrelse" component={Styrelse} />
       <Route exact path="/aktiviteter" component={Aktiviteter} />
-      <Route exact path="/miljöArbete" component={MiljöArbete} />
+      <Route exact path="/miljöArbete" component={MiljArbete} />
       <Route exact path="/film" component={Film} />
-      <Route exact path="/stödboende" component={Stödboende} />
+      <Route exact path="/studentHouse" component={StudentHouse} />
       <Route exact path="/sponsorer" component={Sponsorer} />
       <Route exact path="/turkiet" component={Turkiet} />
       <Route exact path="/kontakt" component={Kontakt} />

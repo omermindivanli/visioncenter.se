@@ -1,11 +1,9 @@
 import React from 'react';
 import './Turkiet.css';
-import icon_turkey from '../../Assests/icon_turkey.png';
+import iconTurkey from '../../Assests/iconTurkey.png';
 import turkiet2 from '../../Assests/Turkiet/turkiet2.png';
 import turkiet3 from '../../Assests/Turkiet/turkiet3.png';
 import turkiet4 from '../../Assests/Turkiet/turkiet4.png';
-import turkiet5 from '../../Assests/Turkiet/turkiet5.png';
-import turkiet6 from '../../Assests/Turkiet/turkiet6.png';
 
 const Turkiet = () => (
   <div className="container">
@@ -15,8 +13,9 @@ const Turkiet = () => (
         This part of webpage has been re-edited for Vision Center's new project in Turkey.
       </h6>
       <img
+        alt=""
         className="col-md-4 img-fluid float-right"
-        src={'https://ak4.picdn.net/shutterstock/videos/6651734/thumb/1.jpg'}
+        src="https://ak4.picdn.net/shutterstock/videos/6651734/thumb/1.jpg"
       />
       <p>
         Derviş Dennis Aksay, Nevşehir ilinin, Hacıbektaş ilçesinin, Mikail köyünde ailenin beşinci
@@ -69,7 +68,7 @@ const Turkiet = () => (
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="img-fluid first-slide" src={icon_turkey} alt="First slide" />
+              <img className="img-fluid first-slide" src={iconTurkey} alt="First slide" />
               <div className="container" />
             </div>
             <div className="carousel-item">

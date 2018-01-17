@@ -30,7 +30,7 @@ const Nav = () => (
         <Link className="nav-link dropdown active" to="/grundaren">
           <a
             className="nav-link dropdown-toggle"
-            href="#"
+            href=""
             id="greenButton"
             role="button"
             data-toggle="dropdown"
@@ -77,7 +77,7 @@ const Nav = () => (
             </Link>
           </ul>
         </Link>
-        <Link className="nav-link active" to="/stödboende">
+        <Link className="nav-link active" to="/studentHouse">
           <a id="greenButton" className="nav-link">
             STÖDBOENDE
           </a>

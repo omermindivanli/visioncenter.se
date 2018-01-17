@@ -4,8 +4,8 @@ const IdeellArbete = () => (
   <div className="container col-md-9">
     <h2 className="">Ideell Arbete</h2>
     <img
-      src="http://x-cons.se/wp-content/uploads/2015/06/img_4.jpg"
-      className="col-md-4 float-right"
+      src="http://www.llbolagen.se/wp-content/uploads/2016/11/X-cons.jpg"
+      className="col-md-6 float-right"
       alt=""
     />
     <p>

@@ -5,3 +5,8 @@ img.img-fluid.shadow-box {
 #marginers {
   margin-left: 5px;
 }
+
+#shortMoreImg {
+  width: 255px;
+  height: 255px;
+}

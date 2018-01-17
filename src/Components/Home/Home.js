@@ -1,7 +1,4 @@
 import React from 'react';
-
-import room_visionCenter from '../../Assests/room_visionCenter.jpg';
-
 import './Home.css';
 
 const video = {
@@ -11,7 +8,7 @@ const video = {
 const Home = () => (
   <div className="container">
     <div id="myCarousel" className="shadow-box carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
+      <ol className="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" className="active" />
         <li data-target="#myCarousel" data-slide-to="1" />
         <li data-target="#myCarousel" data-slide-to="2" />
@@ -113,7 +110,7 @@ const Home = () => (
           <img
             className="shadow-box rounded-circle"
             src="http://x-cons.se/wp-content/uploads/20150701_1114401.jpg"
-            alt="Generic placeholder image"
+            alt="Generic placeholder"
             width="200"
             height="200"
           />
@@ -149,7 +146,7 @@ const Home = () => (
             className="shadow-box featurette-image img-fluid mx-auto"
             src="http://x-conshaninge.se/x/wp-content/uploads/2017/04/fritids.jpg"
             data-src="holder.js/500x500/auto"
-            alt="Generic placeholder image"
+            alt="Generic placeholder"
           />
         </div>
       </div>
@@ -171,7 +168,7 @@ const Home = () => (
             className="shadow-box featurette-image img-fluid mx-auto"
             src="https://haninge.sd.se/wp-content/uploads/sites/41/2014/08/Xcon.jpg"
             data-src="holder.js/500x500/auto"
-            alt="Generic placeholder image"
+            alt="Generic placeholder"
           />
         </div>
       </div>
@@ -195,7 +192,7 @@ const Home = () => (
             className="shadow-box featurette-image img-fluid mx-auto"
             src="https://mitti.se/images/849975-1200x630.jpeg"
             data-src="holder.js/500x500/auto"
-            alt="Generic placeholder image"
+            alt="Generic placeholder"
           />
         </div>
       </div>

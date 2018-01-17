@@ -1,16 +1,16 @@
 import React from 'react';
-import miljö1 from '../../Assests/MiljöArbete/miljö1.png';
-import miljö2 from '../../Assests/MiljöArbete/miljö2.png';
-import miljö3 from '../../Assests/MiljöArbete/miljö3.png';
+import milj1 from '../../Assests/MiljArbete/milj1.png';
+import milj2 from '../../Assests/MiljArbete/milj2.png';
+import milj3 from '../../Assests/MiljArbete/milj3.png';
 
-const MiljöArbete = () => (
+const MiljArbete = () => (
   <div className="container">
     <div className="miljöArbete">
       <h2 className="col-lg-9">Miljö Arbete</h2>
       <img
         src="http://x-cons.se/wp-content/uploads/2015/06/img_4-960x300.jpg"
         className="shadow-box img-fluid float-right"
-        alt="image"
+        alt=""
       />
       <p className="col-lg-8">
         ”Min bakgrund är mitt verktyg till att hjälpa andra in på bättre vägar. På gott och ont har
@@ -19,11 +19,11 @@ const MiljöArbete = () => (
         en. Nu vill jag förmedla mina kunskaper och erfarenheter för att förebygga kriminella tankar
         hos människor som lever i utanförskap” /Dervis
       </p>
-      <img alt="image" src={miljö1} className=" shadow-box img-fluid" />
-      <img alt="image" src={miljö2} className=" shadow-box img-fluid " />
-      <img alt="image" src={miljö3} className="shadow-box img-fluid " />
+      <img alt="" src={milj1} className=" shadow-box img-fluid" />
+      <img alt="" src={milj2} className=" shadow-box img-fluid " />
+      <img alt="" src={milj3} className="shadow-box img-fluid " />
     </div>
   </div>
 );
 
-export default MiljöArbete;
+export default MiljArbete;
