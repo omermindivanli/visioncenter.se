@@ -1,11 +1,11 @@
 import React from 'react';
-import icon from '../../Assests/icon.png';
+import logo from '../../Assests/logo.png';
 
 const OmVisionCenter = () => (
   <div className="container col-md-9">
     <h3>Vision Center Arbetar i Brottsförebyggande Syfte</h3>
     <h5 className="">Ungdomar</h5>
-    <img alt="" src={icon} className="float-right col-md-4" />
+    <img alt="" src={logo} className="float-right col-md-5" />
     <p className="">
       Vi kämpar för att vara en god resurs för ungdomar och deras föräldrar. Vi SER ungdomarna som
       kommer till vår verksamhet eller våra aktiviteter. Respekten måste vara ömsesidig för att få

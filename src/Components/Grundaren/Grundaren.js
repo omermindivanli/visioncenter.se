@@ -4,9 +4,13 @@ import grundarenSlider from '../../Assests/grundarenSlider.jpg';
 import grundarenSlider2 from '../../Assests/grundarenSlider2.jpeg';
 
 const Grundaren = () => (
-  <div className="grundaren container">
-    <h3 className="col-lg-9">VISION CENTER SWEDEN Grundare och Eldsjäl</h3>
-    <div id="myCarousel" className="col-xl-6 float-right carousel slide" data-ride="carousel">
+  <div className="container">
+    <h3 className="container">VISION CENTER SWEDEN Grundare och Eldsjäl</h3>
+    <p className="container text-muted">
+      <em>Dervis ”Dennis” Aksay, Director / Founder</em>
+    </p>
+
+    <div id="myCarousel" className=" col-md-6 carousel slide float-right" data-ride="carousel">
       <ol className="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" className="active" />
         <li data-target="#myCarousel" data-slide-to="1" />
@@ -16,8 +20,8 @@ const Grundaren = () => (
 
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img className="img-fluid first-slide" src={grundarenSlider} alt="Third slide" />
-          <div className="container" />
+          <img className="img-fluid first-slide" src={grundarenSlider} alt="First slide" />
+
           <div className="carousel-caption">
             <div className="float-left">
               <img
@@ -63,7 +67,7 @@ const Grundaren = () => (
         </div>
 
         <div className="carousel-item">
-          <img className="img-fluid third-slide" src={grundarenSlider2} alt="Second slide" />
+          <img className="third-slide img-fluid" src={grundarenSlider2} alt="Third slide" />
         </div>
 
         <div className="carousel-item">
@@ -85,17 +89,15 @@ const Grundaren = () => (
         <span className="sr-only">Next</span>
       </a>
     </div>
-    <p className="col-lg-9 text-muted">
-      <em>Dervis ”Dennis” Aksay, Director / Founder</em>
-    </p>
-    <p className="col-lg-9 ">
+
+    <p className="">
       ”Min bakgrund är mitt verktyg till att hjälpa andra in på bättre vägar. På gott och ont har
       jag gått den hårda vägen. Jag har tagit mig ur kriminalitet för att idag få uppleva ett liv
       utan oro och ångest och jag har förstått hur viktigt det är att ha nära och kära som tror på
       en. Nu vill jag förmedla mina kunskaper och erfarenheter för att förebygga kriminella tankar
       hos människor som lever i utanförskap” /Dervis
     </p>
-    <p className="col-lg-9">
+    <p className="">
       Dervis ”Dennis” Aksay är uppvuxen i Turkiet med hederskultur som måttstock. Han blev som
       18-åring bortgift i Sverige trots att varken kvinnan eller han ville gifta sig med varandra.
       Utanförskap blev hans vardag då svärföräldrarna vägrade låta honom integreras i det nya
@@ -108,12 +110,14 @@ const Grundaren = () => (
       X-CONS Haninge ideella förening som idag har bytt namn till Vision Center. Att föreningen
       ändrade namn till Vision Center berodde på två saker:
     </p>
+
     <ul>
       <li>Samhället sätter ofta en negativ stämpel på en organisation som heter Vision Center.</li>
       <li>
         Vi ville betona att vi kämpar för att alla ska känna att de har en vision/framtidsdröm.
       </li>
     </ul>
+
     <p className="col-lg-12">
       Resan från 2009 har gått både upp och ner (det är många fördomar att kämpa mot när man är en
       före detta kriminell som vill leva hederligt) men han har lyckats! Genom idogt arbete har han

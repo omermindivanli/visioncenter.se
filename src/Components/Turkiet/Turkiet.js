@@ -8,15 +8,52 @@ import turkiet4 from '../../Assests/Turkiet/turkiet4.png';
 const Turkiet = () => (
   <div className="container">
     <div className="turkiet">
-      <h2>Turkiet</h2>
-      <h6 className="text-muted">
-        This part of webpage has been re-edited for Vision Center's new project in Turkey.
-      </h6>
-      <img
-        alt=""
-        className="col-md-4 img-fluid float-right"
-        src="https://ak4.picdn.net/shutterstock/videos/6651734/thumb/1.jpg"
-      />
+      <h1>Vizyon Merkezi Türkiye</h1>
+      <br />
+      <h3>Dürüstlük, Dayanışma ve Gelecek</h3>
+      <br />
+      <h5>Bagimlilikla Mücadele ve Mahkumların Rehabilitasyon Derneği</h5>
+
+      <div className="col-md-6 img-fluid float-right">
+        <div id="myCarousel" className="shadow-box carousel slide" data-ride="carousel">
+          <ol className="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" className="active" />
+            <li data-target="#myCarousel" data-slide-to="1" />
+            <li data-target="#myCarousel" data-slide-to="2" />
+          </ol>
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img className="img-fluid first-slide" src={iconTurkey} alt="First slide" />
+            </div>
+            <div className="carousel-item">
+              <img
+                className="img-fluid fourth-slide"
+                src="https://ak4.picdn.net/shutterstock/videos/6651734/thumb/1.jpg"
+                alt="Fourth slide"
+              />
+            </div>
+            <div className="carousel-item">
+              <img className="img-fluid second-slide" src={turkiet2} alt="Second slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="img-fluid third-slide" src={turkiet3} alt="Third slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="img-fluid fourth-slide" src={turkiet4} alt="Fourth slide" />
+            </div>
+          </div>
+          <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true" />
+            <span className="sr-only">Previous</span>
+          </a>
+          <a className="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true" />
+            <span className="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <h5>VIZYON MERKEZİ KURUCUSU DERVİŞ DENNIS AKSAY</h5>
       <p>
         Derviş Dennis Aksay, Nevşehir ilinin, Hacıbektaş ilçesinin, Mikail köyünde ailenin beşinci
         ve ilk erkek çocuğu olarak dünyaya geldi. Babası Almanya’da bir gurbet işçisiydi. Bu yüzden
@@ -31,11 +68,6 @@ const Turkiet = () => (
         Stockholm’e gelerek, kızın ailesinin baskısı ve zorlamasıyla evlendirilmiştir. AKSAY’IN bu
         evlilikten iki çocuğu olmuştur.
       </p>
-      <img
-        className="col-md-4 img-fluid float-right"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUDKWfIFQgJR1gyODcp5zrKChmHw5Tli5wC3TozxP8R6Zxl-FjCA"
-        alt=""
-      />
       <p>
         İsveç’te dil ve kültür çatışması nedeniyle kendisini çok yalnız hisseden Derviş AKSAY güzel
         bir hayat hayali kurmasına rağmen, tam aksi yönde bir yaşamla karşı karşıya kalır.
@@ -59,40 +91,6 @@ const Turkiet = () => (
         büyük başarılar göstererek, uyuşturucu kullanan ve suç işleyen gençlere, insanlara yardım
         elini uzatıyor ki bu konuda çok başarılı olmuştur.
       </p>
-      <div className="container col-md-5">
-        <div id="myCarousel" className="shadow-box carousel slide" data-ride="carousel">
-          <ol className="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" className="active" />
-            <li data-target="#myCarousel" data-slide-to="1" />
-            <li data-target="#myCarousel" data-slide-to="2" />
-          </ol>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img className="img-fluid first-slide" src={iconTurkey} alt="First slide" />
-              <div className="container" />
-            </div>
-            <div className="carousel-item">
-              <img className="img-fluid second-slide" src={turkiet2} alt="Second slide" />
-            </div>
-            <div className="carousel-item">
-              <img className="img-fluid third-slide" src={turkiet3} alt="Third slide" />
-              <div className="container" />
-            </div>
-            <div className="carousel-item">
-              <img className="img-fluid fourth-slide" src={turkiet4} alt="Fourth slide" />
-              <div className="container" />
-            </div>
-          </div>
-          <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true" />
-            <span className="sr-only">Previous</span>
-          </a>
-          <a className="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true" />
-            <span className="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
       <p>
         Ayrıca Derviş AKSAY ( Alkol ve madde bağımlılığı tedavi uzmani olarak 2012 yilinda Upsalla
         üniversitesini bitirdi ), film, müzik ve kitap yazarlığıyla uğraşmaktadır. Çok güzel saz

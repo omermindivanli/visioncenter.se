@@ -17,6 +17,7 @@ const Historia = () => (
         <li data-target="#myCarousel" data-slide-to="0" className="active" />
         <li data-target="#myCarousel" data-slide-to="1" />
         <li data-target="#myCarousel" data-slide-to="2" />
+        <li data-target="#myCarousel" data-slide-to="3" />
       </ol>
       <div className="carousel-inner">
         <div className="carousel-item active">
@@ -41,6 +42,7 @@ const Historia = () => (
           <img className="img-fluid fifth-slide" src={historia4} alt="Second slide" />
         </div>
       </div>
+
       <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true" />
         <span className="sr-only">Previous</span>
@@ -106,6 +108,8 @@ const Historia = () => (
         <li>Drogförebyggande arbete</li>
       </ul>
       <img className="img-fluid first-slide" src={certificate} alt="First slide" />
+      <br />
+      <br />
     </div>
     <p className="container">
       Vision Centers engagemang genom åren har gett oss en stark förankring i lokalsamhället med

@@ -1,5 +1,4 @@
 nav {
-  position: sticky;
   background-color: white;
   font-family: 'Oswald', sans-serif;
   margin-bottom: 2.5rem;
@@ -12,8 +11,8 @@ nav {
 
 .navbar-brand img {
   margin-right: 70px;
-  height: 105px;
-  width: 100px;
+  height: 95px;
+  width: 95px;
 }
 
 .nav-link img {

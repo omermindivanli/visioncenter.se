@@ -7,12 +7,13 @@ const video = {
 
 const Home = () => (
   <div className="container">
-    <div id="myCarousel" className="shadow-box carousel slide" data-ride="carousel">
+    <div id="myCarousel" className="shadow-box carousel slide antiBlur" data-ride="carousel">
       <ol className="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" className="active" />
         <li data-target="#myCarousel" data-slide-to="1" />
         <li data-target="#myCarousel" data-slide-to="2" />
       </ol>
+
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
@@ -38,6 +39,7 @@ const Home = () => (
           <div className="container" />
         </div>
       </div>
+
       <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true" />
         <span className="sr-only">Previous</span>
@@ -190,7 +192,7 @@ const Home = () => (
         <div className="col-md-5">
           <img
             className="shadow-box featurette-image img-fluid mx-auto"
-            src="https://mitti.se/images/849975-1200x630.jpeg"
+            src="http://1.bp.blogspot.com/-WOrOkl-CZjk/TlxwBTCBPeI/AAAAAAAAAJ4/7QQXJjtWXO4/s1600/DSC00173+%25282%2529.jpg"
             data-src="holder.js/500x500/auto"
             alt="Generic placeholder"
           />
