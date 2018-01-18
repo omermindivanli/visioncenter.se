@@ -257,6 +257,13 @@ const Turkiet = () => (
         gerceklestirmekdir.
       </p>
     </div>
+    <div className="row">
+      <img
+        alt=""
+        src="http://www.digbymorris.com/uploads/flag-map_of_turkey.png"
+        className="container col-xl-7 img-fluid"
+      />
+    </div>
   </div>
 );
 

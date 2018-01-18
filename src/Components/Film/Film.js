@@ -1,5 +1,6 @@
 import React from 'react';
 import './Film.css';
+import booken from '../../Assests/booken.jpg';
 
 const Film = () => (
   <div className="container">
@@ -30,12 +31,19 @@ const Film = () => (
         src="https://www.ginza.se/Archive/Images/item_img_600/692790.jpg"
         className="col-md-2 float-right"
       />
+
       <p>
         Dennis har skrivit en bok om sitt liv som handlar om hederskultur, utanförskap och hans väg
         in och ut ur kriminalitet och missbruk. Den ämnar vi skapa en film av där vi använder våra
         unga medlemmar både i Sverige och Turkiet. Det är en lärande uppgift på många sätt. Boken
         finns att beställas…..
       </p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <img alt="" src={booken} className="container img-fluid" />
     </div>
   </div>
 );

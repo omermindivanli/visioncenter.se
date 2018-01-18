@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Triple } from 'react-preloading-component';
 import './Nav.css';
 import logo from '../../Assests/logo.png';
 
@@ -9,6 +10,12 @@ const Nav = () => (
       <a className="navbar-brand">
         <img alt="Vision Center" src={logo} />
       </a>
+      <div className="animationNavbar">
+        <Triple
+          color="green" // Default hex color (string)
+          size="50" // Default Size in px (number)
+        />
+      </div>
       <button
         className="navbar-toggler"
         type="button"
@@ -20,7 +27,6 @@ const Nav = () => (
       >
         <span className="navbar-toggler-icon" />
       </button>
-
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <Link className="nav-link active" to="/">

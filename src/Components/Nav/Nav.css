@@ -5,6 +5,10 @@ nav {
   border-bottom: solid green 2px;
 }
 
+.animationNavbar {
+  margin-right: 25px;
+}
+
 .navbar-brand {
   margin-left: 40px;
 }

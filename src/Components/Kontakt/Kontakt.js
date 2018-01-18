@@ -1,6 +1,6 @@
+/* eslint-disable */
 import React from 'react';
 import './Kontakt.css';
-
 const Kontakt = () => (
   <div className="container">
     <h2 className="container">Kontakt</h2>
@@ -13,7 +13,7 @@ const Kontakt = () => (
                 <div className="col-md-6">
                   <div className="form-group">
                     <label htmlFor="" className="name">
-                      Name
+                      Namn och Efternamn
                     </label>
                     <input
                       type="text"
@@ -24,7 +24,7 @@ const Kontakt = () => (
                     />
                   </div>
                   <div className="form-group">
-                    <label hmtlFor="email">Email Address</label>
+                    <label hmtlFor="email">Email</label>
                     <div className="input-group">
                       <span className="input-group-addon">
                         <span className="glyphicon glyphicon-envelope" />
@@ -71,7 +71,7 @@ const Kontakt = () => (
                 </div>
                 <div className="col-md-12">
                   <button type="submit" className="btn btn-primary pull-right" id="btnContactUs">
-                    Send Message
+                    Skicka
                   </button>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Kontakt = () => (
             <br />
             Handens Stationsväg 19, Handen<br />
             Stockholm, Sweden 13640<br />
-            <abbr title="Phone">Phone Number:</abbr>
+            <abbr title="Phone">Telefonnummer:</abbr>
             +468 777 30 10
           </address>
           <address>
