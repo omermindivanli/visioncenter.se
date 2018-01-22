@@ -4,6 +4,13 @@ import './BliMedlem.css';
 
 const BliMedlem = () => (
   <div className="container">
+    <div>
+      Medlemsinformation Ordinariemedlem 500 kr/år, för dig som har fyllt 26 år. Ungdomsmedlem 150
+      kr/år, för dig mellan 13 – 25 år. Betalningsalternativ: 1) Betala medlemsavgiften kontant vid
+      VISION CENTER SWEDEN's lokalen. 2) Inbetala medlemsavgiften till vårt PlusGiro 53 05 47-9
+      eller Bankgiro 460-2769 och uppge dina uppgifter. För ungdomar under 18 år Målsmans namn
+      telefon.
+    </div>
     <h2 className="container">Ansök För Bli Medlem: </h2>
     <div className="container">
       <div className="row">

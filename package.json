@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "react-preloading-component": "0.0.5",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.4.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
@@ -18,7 +23,8 @@
     "lint:eslint": "eslint .",
     "lint:stylelint": "stylelint .",
     "airbnb": "yarn run lint:eslint && yarn run lint:stylelint",
-    "format": "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src, __tests__}/**/*.js\""
+    "format":
+      "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src, __tests__}/**/*.js\""
   },
   "devDependencies": {
     "eslint": "^4.15.0",
@@ -30,14 +36,10 @@
     "lint-staged": "^6.0.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.10.2",
-    "react-preloading-component": "0.0.5",
     "stylelint": "^8.4.0"
   },
   "lint-staged": {
-    "*.js": [
-      "yarn run format",
-      "git add"
-    ]
+    "*.js": ["yarn run format", "git add"]
   },
   "pre-commit": "lint-staged"
 }

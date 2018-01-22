@@ -3,7 +3,7 @@ import logo from '../../Assests/logo.png';
 
 const OmVisionCenter = () => (
   <div className="container col-md-9">
-    <h3>Vision Center Arbetar i Brottsförebyggande Syfte</h3>
+    <h3>VISION CENTER SWEDEN Arbetar i Brottsförebyggande Syfte</h3>
     <h5 className="">Ungdomar</h5>
     <img alt="" src={logo} className="float-right col-md-5" />
     <p className="">

@@ -1,21 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Triple } from 'react-preloading-component';
 import './Nav.css';
 import logo from '../../Assests/logo.png';
 
 const Nav = () => (
   <div className="sticky">
     <nav className="navbar navbar-expand-lg navbar-light">
-      <a className="navbar-brand">
-        <img alt="Vision Center" src={logo} />
-      </a>
-      <div className="animationNavbar">
-        <Triple
-          color="green" // Default hex color (string)
-          size="50" // Default Size in px (number)
-        />
-      </div>
+      <Link to="/">
+        <a className="navbar-brand">
+          <img alt="Vision Center" src={logo} />
+        </a>
+      </Link>
+
       <button
         className="navbar-toggler"
         type="button"
@@ -29,11 +25,6 @@ const Nav = () => (
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
-          <Link className="nav-link active" to="/">
-            <a className="nav-link active" id="greenButton">
-              HEM
-            </a>
-          </Link>
           <Link className="nav-link dropbtn dropdown active" to="/grundaren">
             <a
               className="nav-link dropdown-toggle"

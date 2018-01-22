@@ -5,18 +5,14 @@ nav {
   border-bottom: solid green 2px;
 }
 
-.animationNavbar {
-  margin-right: 25px;
-}
-
 .navbar-brand {
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .navbar-brand img {
-  margin-right: 70px;
-  height: 95px;
-  width: 95px;
+  margin-right: 50px;
+  height: 150px;
+  width: 165px;
 }
 
 .nav-link img {

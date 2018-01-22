@@ -4,14 +4,14 @@ import iconTurkey from '../../Assests/iconTurkey.png';
 import turkiet2 from '../../Assests/Turkiet/turkiet2.png';
 import turkiet3 from '../../Assests/Turkiet/turkiet3.png';
 import turkiet4 from '../../Assests/Turkiet/turkiet4.png';
+import dervisBey from '../../Assests/dervisBey.jpeg';
 
 const Turkiet = () => (
   <div className="container">
     <div className="turkiet">
-      <h1>Vizyon Merkezi Türkiye</h1>
-      <h3 className="text-muted">Dürüstlük, Dayanışma ve Gelecek</h3>
+      <h4>VISION CENTER TURKEY ( Bagimlilikla Mücadele ve Mahkumların Rehabilitasyon Derneği )</h4>
       <br />
-      <h5>Bagimlilikla Mücadele ve Mahkumların Rehabilitasyon Derneği</h5>
+      <h5 className="text-muted">Dürüstlük - Dayanışma - Gelecek</h5>
       <br />
 
       <div className="col-md-6 img-fluid float-right">
@@ -56,6 +56,98 @@ const Turkiet = () => (
           </a>
         </div>
       </div>
+
+      <h5>VISION CENTER TURKEY NEDIR VE AMACLARI NELERDIR? </h5>
+      <p>
+        VISION CENTER TURKEY, geçmiş yaşantılarında suç işlemiş ve madde bağımlılığı yaşamış
+        kişilerin bir araya gelerek oluşturdukları; suça yatkın olan ve madde bağımlılığı olan
+        gençlerin meslek edinmeleri ve topluma kazandırılmalarına yönelik çalışmalar yürüten devlet
+        destekli bir organizasyondur. Toplum içinde suç işleyen ve madde bağımlılığı yaşayan veya
+        suça yatkın olan gençlerin tespit edilmesi ve organizasyon bünyesinde rehabilite edilerek
+        tekrar topluma kazandırılması VISION CENTER TURKEY´un başlıca görevleri arasındadır . Vision
+        Center´ un bir diğer amacı, hapis cezasina mahkum olmus bireylerin tekrar topluma
+        kazandırılmaları icin bu kisilere özel tasarlanmis projeler ile onların dürüst bir yaşama
+        kavuşmalarını sağlamaktır. Geçmiş yaşantılarında suç işleyen veya madde bağımlısı olan
+        VISION CENTER TURKEY üyeleri, bu kötü alışkanlıklarla savaşma konusunda başvurulabilecek en
+        önemli kaynaklardır. Kendileri de böyle bir sorun yaşadıkları ve kurtuldukları için bu
+        eğilimlerin nedenlerini, insanları suça teşvik eden ortamları, fizyolojik ve psikolojik
+        nedenlerini ve etkilerini, ve bunlardan kurtulma yollarını bilmektedirler. VISION CENTER
+        TURKEY derneklerini diğerlerinden farklı yapan en önemli özellik de budur.
+      </p>
+      <h5>KILAVUZLUK</h5>
+      <p>
+        VISION CENTER TURKEY´ın deneyimli yöneticileri, gençlerin, kendi yaşamlarına benzer bir
+        yaşamın içine düşmemeleri için onlara rehberlik, ağabeylik, arkadaşlık etmek, kendi
+        deneyimlerinden yararlanarak onlara yol gösterici bir rol edinmişlerdir. X -CONS Haninge
+        madde bağımlısı veya suça bulaşmış gençlerle düzenli olarak görüşmektedir. Gençler
+        yaptığımız çalışmalara çok güven duymaktalar ve genel olarak onlar bizi aramaktadir. Bu
+        durum onların mevcut bakım programına olumlu tavır göstermelerine motive olmalarını
+        kolaylaştırmaktadır. VISION CENTER TURKEY personelinin bazı durumlarda kılavuzlukla birlikte
+        görevleri vardır. VISION CENTER TURKEY´ın belediyeyle çerçeve anlaşması mevcuttur.
+      </p>
+      <h5>13-26 Yaş arasındaki gençlere yönelik önleyici çalışmalar:</h5>
+      <p>
+        Belediyenin dar gelirli bölgelerinde oturan gençler akranlarıyla buluşmak için VISION CENTER
+        TURKEY lokaline uğrarlar .Bu gençler dernek etkinliklerine çok güvenmekte olup insancıl,
+        demokratik ve eşitlikçi değerlerden etkilenmeye açıktırlar. Açık etkinliklerde madde
+        bağımlılığı, sigara, kumar, namus ve daha bir dizi sorunları düzenli olarak ele almaktayız.
+      </p>
+      <p>
+        VISION CENTER TURKEY´ın, hedef gurubundaki gençlere ulaşılması ve yaşadıkları bölgelerde bu
+        çocukların belirlenmesi ve onlarla iletişime geçerek madde bağımlılığı ve suç teşkil
+        edececek nedenler ve sonuçları üzerine konuşulması, gençlerin sorunlarının dinlenerek onlara
+        çözüm önerileri ile birlikte VISION CENTER TURKEY bünyesinde yer alan sosyal aktivitelerle
+        madde ve suç ortamından uzaklaştırılması amaçlanmaktadır
+      </p>
+      <p>
+        VISION CENTER TURKEY´ın hedef grubu öncelikle suç işleme ve bağımlılık tehlikesi içinde olan
+        gençlerdir. Bu çocuklar organizasyon içinde sosyal aktiviteler ile kendilerine olan
+        güvenleri geliştirilip, farklı alanlarda oluşturulan etkinliklerle boş zamanlarını
+        değerlendirerek kötü alışkanlıklardan uzak tutulması sağlanmaktadır.
+      </p>
+      <h5>İş piyasası projesinde başta çevre işleri olmak üzere ´ilk iş´: </h5>
+      <p>
+        Eğitim ve iş hayatında başarılı olamayan bir çok gençle karşılaşıyoruz. Bu gençlere işe
+        alınmanin nasil olmasi gerektigini ögretmek için bir iş alani yaratmak çalışma ve deneme
+        ortami sağlarız. Böylece toplumda başarılı olabilme şansları artar. VISION CENTER TURKEY
+        belediyeler ve diger sivil toplum kuruluslari ile organik bir bag icinde calismaktadir.{' '}
+      </p>
+      <p>
+        Eğitim ve iş hayatında başarılı olamayan gencler, bünyemizde bulunan bir cok is dalinda
+        gerekli imkanlar saglanarak, toplum icinde sayginlik kazanmak ve kendilerine olan
+        özguvenlerini gelistirmeleri amaclanmaktadir. Dürüst yollardan bir gelir elde etmek ve bu
+        gencleri tekrar topluma kazandirmak hedeflenmektedir. Katılımcı olabilmeleri eğitimlerini
+        yeniden deneme motivasyonlarını kuvvetlendirir.
+      </p>
+      <p>
+        VISION CENTER TURKEY, Kaynakta ayırma/Çevre işleri ile çalışmaktadır. Örneğin bazi sorunlu
+        bölgelerdeki gençler kendi semtlerinde iyi bir çevre işi yaptıkları için işe alındılar.
+        Özellikle hedef grubunun konut bölgelerinde görev çeşitlerini artırarak yapabilecekleri aynı
+        tipdeki yerleşik iş imkanlarinin saglanmasini istiyoruz.{' '}
+      </p>
+      <p>
+        VISION CENTER TURKEY´ın uyguladığı tüm projelerdeki amaci, gençler ile bireysel olarak
+        ilgilenelerek onları iş ve eğtim alanlarına yönlendirmek, profesyonel hayata hazırlamak,
+        ekonomik olarak kalkınmalarını sağlamak ve yeniden toplum içinde saygın bir konum
+        edinmelerini sağlamaktır.
+      </p>
+      <h5>İsveç´te başarıyla uygulanan modeli Türkiye´ye taşımak: </h5>
+      <p>
+        VISION CENTER TURKEY modelinin en etkin biçimde Türkiye´de de uygulanması ve buradan başka
+        ülkelere yayılması amacımızdir. Türkiye`de bir rehabilitasyon - merkezinin acilmasini
+        hedeflemekteyiz, fakat bu merkez sadece konut fonksiyonu ile sinirlanmis olmamak üzere „bir
+        tatil köyü“ gibi spor ve aktivite alanlarinada sahip olmalidir. Bu merkezde tedavinin yani
+        sira topluma kazandirmak amacinin gerceklesebilmesi açısından eğitici, eğlendirici ve
+        bilinclendirici bölümler olacaktır. Amacimiz bütün dünya ülkeleriyle beraber genis kapsamda
+        bir ortak calışma, rehabilitasyon tedavisinin baska bir ülkedede gerceklesme ihtimali dahil,
+        gerceklestirmekdir.
+      </p>
+
+      <hr />
+      <br />
+      <br />
+
+      <img className="img-fluid float-right col-xl-4" src={dervisBey} alt="" />
       <h5>VIZYON MERKEZİ KURUCUSU DERVİŞ DENNIS AKSAY</h5>
       <p>
         Derviş Dennis Aksay, Nevşehir ilinin, Hacıbektaş ilçesinin, Mikail köyünde ailenin beşinci
@@ -156,9 +248,10 @@ const Turkiet = () => (
         paylaşmıştır.
       </p>
       <p>
-        İsveç’te ki X-CONS modelini Türkiye’ye getirme kararını vererek faaliyete geçiren Derviş
-        AKSAY,kurucu başkan olarak VISION CENTER İSTANBUL/TURKEY olarak, “Bağımlılıkla Mücadele Ve
-        Mahkûmların Rehabilitasyon Derneği” adıyla Türkiye’de de bir adim atmistir.
+        İsveç’te ki bağimlılıkla mücadele modelini Türkiye’ye getirme kararını vererek faaliyete
+        geçiren Derviş AKSAY,kurucu başkan olarak VISION CENTER TURKEY İSTANBUL/TURKEY olarak,
+        “Bağımlılıkla Mücadele Ve Mahkûmların Rehabilitasyon Derneği” adıyla Türkiye’de de bir adim
+        atmistir.
       </p>
       <p>
         Türkiye’de bir tedavi merkezi açmak ve bütün Avrupa ülkeleri ile beraber ortak çalışmaktir
@@ -167,94 +260,9 @@ const Turkiet = () => (
         gönderip tedavilerini gerçekleştirmeyi düşünen Derviş AKSAY,
       </p>
       <p>
-        VISION CENTER uyguladığı tüm projelerinde gençler ile bireysel olarak ilgilenmektedir.
-        Onları is alanlarına yönlendirmek, profesyonel hayata hazırlamak, ekonomik olarak
-        kalkınmalarını sağlamak ve toplumda saygın bir yer edinmelerini hedeflemektedir.
-      </p>
-      <h5>VISION CENTER NEDIR VE AMACLARI NELERDIR? </h5>
-      <p>
-        VISION CENTER, geçmiş yaşantılarında suç işlemiş ve madde bağımlılığı yaşamış kişilerin bir
-        araya gelerek oluşturdukları; suça yatkın olan ve madde bağımlılığı olan gençlerin meslek
-        edinmeleri ve topluma kazandırılmalarına yönelik çalışmalar yürüten devlet destekli bir
-        organizasyondur. Toplum içinde suç işleyen ve madde bağımlılığı yaşayan veya suça yatkın
-        olan gençlerin tespit edilmesi ve organizasyon bünyesinde rehabilite edilerek tekrar topluma
-        kazandırılması Vision Center´un başlıca görevleri arasındadır . Vision Center´ un bir diğer
-        amacı, hapis cezasina mahkum olmus bireylerin tekrar topluma kazandırılmaları icin bu
-        kisilere özel tasarlanmis projeler ile onların dürüst bir yaşama kavuşmalarını sağlamaktır.
-        Geçmiş yaşantılarında suç işleyen veya madde bağımlısı olan Vision Center üyeleri, bu kötü
-        alışkanlıklarla savaşma konusunda başvurulabilecek en önemli kaynaklardır. Kendileri de
-        böyle bir sorun yaşadıkları ve kurtuldukları için bu eğilimlerin nedenlerini, insanları suça
-        teşvik eden ortamları, fizyolojik ve psikolojik nedenlerini ve etkilerini, ve bunlardan
-        kurtulma yollarını bilmektedirler. Vision Center derneklerini diğerlerinden farklı yapan en
-        önemli özellik de budur.
-      </p>
-      <h5>KILAVUZLUK</h5>
-      <p>
-        VISION Center´ın deneyimli yöneticileri, gençlerin, kendi yaşamlarına benzer bir yaşamın
-        içine düşmemeleri için onlara rehberlik, ağabeylik, arkadaşlık etmek, kendi deneyimlerinden
-        yararlanarak onlara yol gösterici bir rol edinmişlerdir. X -CONS Haninge madde bağımlısı
-        veya suça bulaşmış gençlerle düzenli olarak görüşmektedir. Gençler yaptığımız çalışmalara
-        çok güven duymaktalar ve genel olarak onlar bizi aramaktadir. Bu durum onların mevcut bakım
-        programına olumlu tavır göstermelerine motive olmalarını kolaylaştırmaktadır. VISION CENTER
-        personelinin bazı durumlarda kılavuzlukla birlikte görevleri vardır. VISION CENTER´ın
-        belediyeyle çerçeve anlaşması mevcuttur.
-      </p>
-      <h5>13-26 Yaş arasındaki gençlere yönelik önleyici çalışmalar:</h5>
-      <p>
-        Belediyenin dar gelirli bölgelerinde oturan gençler akranlarıyla buluşmak için VISION CENTER
-        lokaline uğrarlar .Bu gençler dernek etkinliklerine çok güvenmekte olup insancıl, demokratik
-        ve eşitlikçi değerlerden etkilenmeye açıktırlar. Açık etkinliklerde madde bağımlılığı,
-        sigara, kumar, namus ve daha bir dizi sorunları düzenli olarak ele almaktayız.
-      </p>
-      <p>
-        VISION CENTER´ın, hedef gurubundaki gençlere ulaşılması ve yaşadıkları bölgelerde bu
-        çocukların belirlenmesi ve onlarla iletişime geçerek madde bağımlılığı ve suç teşkil
-        edececek nedenler ve sonuçları üzerine konuşulması, gençlerin sorunlarının dinlenerek onlara
-        çözüm önerileri ile birlikte VISION CENTER bünyesinde yer alan sosyal aktivitelerle madde ve
-        suç ortamından uzaklaştırılması amaçlanmaktadır
-      </p>
-      <p>
-        VISION CENTER´ın hedef grubu öncelikle suç işleme ve bağımlılık tehlikesi içinde olan
-        gençlerdir. Bu çocuklar organizasyon içinde sosyal aktiviteler ile kendilerine olan
-        güvenleri geliştirilip, farklı alanlarda oluşturulan etkinliklerle boş zamanlarını
-        değerlendirerek kötü alışkanlıklardan uzak tutulması sağlanmaktadır.
-      </p>
-      <h5>İş piyasası projesinde başta çevre işleri olmak üzere ´ilk iş´: </h5>
-      <p>
-        Eğitim ve iş hayatında başarılı olamayan bir çok gençle karşılaşıyoruz. Bu gençlere işe
-        alınmanin nasil olmasi gerektigini ögretmek için bir iş alani yaratmak çalışma ve deneme
-        ortami sağlarız. Böylece toplumda başarılı olabilme şansları artar. VISION CENTER
-        belediyeler ve diger sivil toplum kuruluslari ile organik bir bag icinde calismaktadir.{' '}
-      </p>
-      <p>
-        Eğitim ve iş hayatında başarılı olamayan gencler, bünyemizde bulunan bir cok is dalinda
-        gerekli imkanlar saglanarak, toplum icinde sayginlik kazanmak ve kendilerine olan
-        özguvenlerini gelistirmeleri amaclanmaktadir. Dürüst yollardan bir gelir elde etmek ve bu
-        gencleri tekrar topluma kazandirmak hedeflenmektedir. Katılımcı olabilmeleri eğitimlerini
-        yeniden deneme motivasyonlarını kuvvetlendirir.
-      </p>
-      <p>
-        VISION CENTER, Kaynakta ayırma/Çevre işleri ile çalışmaktadır. Örneğin bazi sorunlu
-        bölgelerdeki gençler kendi semtlerinde iyi bir çevre işi yaptıkları için işe alındılar.
-        Özellikle hedef grubunun konut bölgelerinde görev çeşitlerini artırarak yapabilecekleri aynı
-        tipdeki yerleşik iş imkanlarinin saglanmasini istiyoruz.{' '}
-      </p>
-      <p>
-        VISION CENTER´ın uyguladığı tüm projelerdeki amaci, gençler ile bireysel olarak
-        ilgilenelerek onları iş ve eğtim alanlarına yönlendirmek, profesyonel hayata hazırlamak,
-        ekonomik olarak kalkınmalarını sağlamak ve yeniden toplum içinde saygın bir konum
-        edinmelerini sağlamaktır.
-      </p>
-      <h5>İsveç´te başarıyla uygulanan modeli Türkiye´ye taşımak: </h5>
-      <p>
-        VISION CENTER modelinin en etkin biçimde Türkiye´de de uygulanması ve buradan başka ülkelere
-        yayılması amacımızdir. Türkiye`de bir rehabilitasyon- merkezinin acilmasini hedeflemekteyiz,
-        fakat bu merkez sadece konut fonksiyonu ile sinirlanmis olmamak üzere „bir tatil köyü“ gibi
-        spor ve aktivite alanlarinada sahip olmalidir. Bu merkezde tedavinin yani sira topluma
-        kazandirmak amacinin gerceklesebilmesi açısından eğitici, eğlendirici ve bilinclendirici
-        bölümler olacaktır. Amacimiz bütün dünya ülkeleriyle beraber genis kapsamda bir ortak
-        calışma, rehabilitasyon tedavisinin baska bir ülkedede gerceklesme ihtimali dahil,
-        gerceklestirmekdir.
+        VISION CENTER TURKEY uyguladığı tüm projelerinde gençler ile bireysel olarak
+        ilgilenmektedir. Onları is alanlarına yönlendirmek, profesyonel hayata hazırlamak, ekonomik
+        olarak kalkınmalarını sağlamak ve toplumda saygın bir yer edinmelerini hedeflemektedir.
       </p>
     </div>
     <div className="row">

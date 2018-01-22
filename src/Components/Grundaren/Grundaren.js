@@ -2,6 +2,7 @@ import React from 'react';
 import './Grundaren.css';
 import grundarenSlider from '../../Assests/grundarenSlider.jpg';
 import grundarenSlider2 from '../../Assests/grundarenSlider2.jpeg';
+import dervisBey from '../../Assests/dervisBey.jpeg';
 
 const Grundaren = () => (
   <div className="container">
@@ -20,8 +21,29 @@ const Grundaren = () => (
 
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img className="img-fluid first-slide" src={grundarenSlider} alt="First slide" />
+          <img className="img-fluid first-slide" src={dervisBey} alt="First slide" />
+        </div>
 
+        <div className="carousel-item">
+          <img
+            className="img-fluid second-slide"
+            src="http://3.bp.blogspot.com/-depgydEGW2E/VOSGEOLFFwI/AAAAAAAACHw/vs4VtipleY4/s1600/Vitsippspris-2014_X-Cons.jpg"
+            alt="Third slide"
+          />
+          <div className="carousel-caption text-left">
+            <h6 id="shorter">
+              2014 tilldelades Dervis ”Vitsippspriset” av Kristdemokraterna Haninge med
+              motiveringen: .
+            </h6>
+            <p id="shorter">
+              Exkriminella har fått chansen till nytt liv och unga i gråzonen har fått möjlighet
+              till ett tryggare liv med positiv framtidstro.
+            </p>
+          </div>
+        </div>
+
+        <div className="carousel-item">
+          <img className="third-slide img-fluid" src={grundarenSlider} alt="Third slide" />
           <div className="carousel-caption">
             <div className="float-left">
               <img
@@ -46,28 +68,6 @@ const Grundaren = () => (
               />
             </div>
           </div>
-        </div>
-
-        <div className="carousel-item">
-          <img
-            className="img-fluid second-slide"
-            src="http://3.bp.blogspot.com/-depgydEGW2E/VOSGEOLFFwI/AAAAAAAACHw/vs4VtipleY4/s1600/Vitsippspris-2014_X-Cons.jpg"
-            alt="Third slide"
-          />
-          <div className="carousel-caption text-left">
-            <h6 id="shorter">
-              2014 tilldelades Dervis ”Vitsippspriset” av Kristdemokraterna Haninge med
-              motiveringen: .
-            </h6>
-            <p id="shorter">
-              Exkriminella har fått chansen till nytt liv och unga i gråzonen har fått möjlighet
-              till ett tryggare liv med positiv framtidstro.
-            </p>
-          </div>
-        </div>
-
-        <div className="carousel-item">
-          <img className="third-slide img-fluid" src={grundarenSlider2} alt="Third slide" />
         </div>
 
         <div className="carousel-item">

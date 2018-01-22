@@ -8,8 +8,7 @@ const Footer = () => (
       <a href="">Back to top</a>
     </p>
     <p>
-      &copy; Copyright 2018 <a href="http://omermindivanli.com">omermindivanli.com</a> &middot;
-      Privacy &middot; <a href="">Terms</a>
+      &copy; Copyright 2018 // Created by <a href="http://omermindivanli.com">omermindivanli.com</a>
     </p>
   </footer>
 );

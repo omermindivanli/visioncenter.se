@@ -1,5 +1,7 @@
 import React from 'react';
 import './Home.css';
+import arl from '../../Assests/arl.png';
+import framtiden from '../../Assests/framtiden.png';
 
 const video = {
   url: 'https://www.youtube.com/embed/FWeP_OjEq54',
@@ -72,7 +74,7 @@ const Home = () => (
         <div className="col-lg-4">
           <img
             className="shadow-box rounded-circle"
-            src="http://www.arvsfonden.se/sites/default/files/project_updates/10991/Hillevi%20Engstr%C3%B6m.jpg"
+            src={framtiden}
             width="200"
             height="200"
             alt=""
@@ -111,7 +113,7 @@ const Home = () => (
         <div className="col-lg-4">
           <img
             className="shadow-box rounded-circle"
-            src="http://x-cons.se/wp-content/uploads/20150701_1114401.jpg"
+            src={arl}
             alt="Generic placeholder"
             width="200"
             height="200"
@@ -192,7 +194,7 @@ const Home = () => (
         <div className="col-md-5">
           <img
             className="shadow-box featurette-image img-fluid mx-auto"
-            src="http://1.bp.blogspot.com/-WOrOkl-CZjk/TlxwBTCBPeI/AAAAAAAAAJ4/7QQXJjtWXO4/s1600/DSC00173+%25282%2529.jpg"
+            src="http://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e15/1390249_560332210762934_1899798240_n.jpg?ig_cache_key=ODIwOTQ0OTM2NTA3MjE0NzQ2.2"
             data-src="holder.js/500x500/auto"
             alt="Generic placeholder"
           />

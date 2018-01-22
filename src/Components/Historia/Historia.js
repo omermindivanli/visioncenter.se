@@ -1,6 +1,5 @@
 import React from 'react';
 import certificate from '../../Assests/certificate.png';
-import historia1 from '../../Assests/historia1.png';
 import historia2 from '../../Assests/historia2.png';
 import historia3 from '../../Assests/historia3.png';
 import historia4 from '../../Assests/historia4.png';
@@ -29,7 +28,7 @@ const Historia = () => (
           <div className="container" />
         </div>
         <div className="carousel-item">
-          <img className="img-fluid second-slide" src={historia1} alt="Second slide" />
+          <img className="img-fluid second-slide" src={''} alt="Second slide" />
         </div>
         <div className="carousel-item">
           <img className="img-fluid third-slide" src={historia2} alt="Third slide" />
@@ -53,15 +52,15 @@ const Historia = () => (
       </a>
     </div>
     <p className="container">
-      Vision Center är en fristående lokalförening. Förutom vad som gäller för Vision Center enligt
-      ovan har denna förening fokuserat på förebyggande arbete med ungdomar, särskilt de i riskzon
-      för kriminalitet eller missbruk. Vi strävar även att hjälpa ungdomar med problem in på
-      arbetsmarknaden. Men arbetet är inte bara förbyggande. Vi gör också insatser med unga som
-      missbrukar eller är kriminella. Vision Center Haninge tidigare namnet X-CONS Haninge har
-      funnits sedan 2009 och har nu en stark förankring i lokalsamhället med goda kontakter med
-      kommun, socialtjänst, kultur- och fritidsförvaltning, arbetsförmedling, polis,
+      Vision Center Sweden är en fristående lokalförening. <br />Förutom vad som gäller för Vision
+      Center enligt ovan har denna förening fokuserat på förebyggande arbete med ungdomar, särskilt
+      de i riskzon för kriminalitet eller missbruk. <br />Vi strävar även att hjälpa ungdomar med
+      problem in på arbetsmarknaden. Men arbetet är inte bara förbyggande. <br /> Vi gör också
+      insatser med unga som missbrukar eller är kriminella. Vision Center Haninge tidigare namnet
+      X-CONS Haninge har funnits sedan 2009 och har nu en stark förankring i lokalsamhället med goda
+      kontakter med kommun, socialtjänst, kultur- och fritidsförvaltning, arbetsförmedling, polis,
       ungdomsmottagning och med en lång rad föreningar i området. Vi har också utvecklat kontakter
-      med flera omgivande kommuner. Vi ändrade namnet 2018 till VISION CENTER SWEDEN.
+      med flera omgivande kommuner.<br /> Vi ändrade namnet 2018 till VISION CENTER SWEDEN.
     </p>
     <h5 className="container">Genom åren har vi hunnit med mycket</h5>
     <p className=" container">

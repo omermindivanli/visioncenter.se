@@ -92,6 +92,38 @@ const Sponsorer = () => (
             <p class="text-muted" />
           </div>
         </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content" />
+            </div>
+            <img
+              class="img-fluid"
+              src="http://www.fastighetsjobb.se/wp-content/uploads/2014/02/HaningeBostader.png"
+              alt=""
+            />
+          </a>
+          <div class="portfolio-caption">
+            <h4>Haninge Bostäder</h4>
+            <p class="text-muted" />
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content" />
+            </div>
+            <img
+              class="img-fluid"
+              src="http://profi.se/wp-content/uploads/2016/04/Profi_Logo-1.png"
+              alt=""
+            />
+          </a>
+          <div class="portfolio-caption">
+            <h4>Profi Fastigheter </h4>
+            <p class="text-muted" />
+          </div>
+        </div>
       </div>
     </div>
   </section>
