@@ -1,0 +1,96 @@
+nav {
+  background-color: rgba(211, 211, 211, 2);
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 3rem;
+  border-bottom: solid green 2px;
+}
+
+.navbar-brand {
+  margin-left: 50px;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+  height: 155px;
+  width: 165px;
+}
+
+.nav-link img {
+  margin-top: 15px;
+  width: 30px;
+  height: 18px;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  font-size: 19px;
+  font-style: normal;
+}
+
+.navbar-toggler-right {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.navbar-toggler {
+  background-color: #63b25e;
+}
+
+.nav-link {
+  font-size: 22px;
+}
+
+#greenButton {
+  background-color: rgba(211, 211, 211, 2);
+  color: green;
+}
+
+#greenButton:hover {
+  color: white;
+  background-color: green;
+}
+
+.col-md-2 i {
+  padding: 5px;
+}
+
+span.fa.fa-instagram.fa-2x {
+  color: #ff5500;
+}
+
+span.fa.fa-twitter.fa-2x {
+  color: #55acee;
+}
+
+span.fa.fa-facebook.fa-2x {
+  color: #3b5998;
+}
+
+span.fa.fa-linkedin.fa-2x {
+  color: #007bb6;
+}
+
+ul.list-group {
+  display: inline;
+}
+
+#maro {
+  margin-top: 7px;
+  padding: 0;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .navbar-brand img {
+    height: 95px;
+    width: 105px;
+  }
+}
+
+.nav-item .active {
+  background-color: rgba(211, 211, 211, 2);
+  margin: 0;
+}
