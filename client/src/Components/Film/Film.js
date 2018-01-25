@@ -15,7 +15,7 @@ const Film = () => (
         src="https://www.youtube.com/embed/VwQDzmyPRI8"
         allow="autoplay; encrypted-media"
       />
-      <p className="container">
+      <p className="">
         <strong>Kort om filmen:</strong> Främmande land, Sarah från Mellanöstern flyttade till
         Sverige hos en fosterfamilj. Balansgången från hennes religiösa och traditionella liv till
         det öppna samhället i Sverige kom som en kulturchock för henne. Sex år gick och hon började

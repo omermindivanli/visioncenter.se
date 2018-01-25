@@ -7,18 +7,19 @@ import stdboende from '../../Assests/Stdboende/stdboende.jpg';
 
 const StudentHouse = () => (
   <div className="container">
-    <h2 className="container">Stödboende</h2>
-    <img className="shadow-box img-fluid" src={stdboende} alt="Third slide" />
-
+    <h2>Stödboende</h2>
+    <br />
+    <img className="img-fluid" src={stdboende} alt="Third slide" />
+    <br />
+    <br />
     <div className="row">
-      <div id="myCarousel" className="container col-lg-6 carousel slide" data-ride="carousel">
+      <div id="myCarousel" className="col-lg-6 carousel slide antiBlur" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" className="active" />
           <li data-target="#myCarousel" data-slide-to="1" />
           <li data-target="#myCarousel" data-slide-to="2" />
           <li data-target="#myCarousel" data-slide-to="3" />
         </ol>
-
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img className="shadow-box img-fluid first-slide" src={Slider1} alt="First slide" />
@@ -41,10 +42,10 @@ const StudentHouse = () => (
         </a>
       </div>
 
-      <div className="col-xl-6">
+      <div className="col-md-6">
         <p className="text-center centerize">
           <strong>Kontakt: </strong> Dervis Dennis Aksay <br />
-          Telefon: 0722900965
+          Telefon: 072-2900965
           <br />
           E-Post: <a href="mailto:sweden@visioncenter.se">sweden@visioncenter.se</a>
         </p>

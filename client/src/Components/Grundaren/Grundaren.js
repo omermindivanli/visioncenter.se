@@ -5,8 +5,8 @@ import dervisBey from '../../Assests/dervisBey.jpeg';
 
 const Grundaren = () => (
   <div className="container">
-    <h3 className="">VISION CENTER SWEDEN Grundare och Eldsjäl</h3>
-    <p className="text-muted">
+    <h3 className="col-md-8">VISION CENTER SWEDEN Grundare och Eldsjäl</h3>
+    <p className="col-md-8 text-muted">
       <em>Dervis ”Dennis” Aksay, Director / Founder</em>
     </p>
 

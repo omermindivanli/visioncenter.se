@@ -3,6 +3,7 @@ nav {
   font-family: 'Oswald', sans-serif;
   margin-bottom: 3rem;
   border-bottom: solid green 2px;
+  max-height: 10;
 }
 
 .navbar-brand {
@@ -90,7 +91,22 @@ ul.list-group {
   }
 }
 
-.nav-item .active {
+.nav-item,
+.active {
   background-color: rgba(211, 211, 211, 2);
   margin: 0;
+}
+
+.nav-item,
+.dropdown-menu {
+  background-color: rgba(211, 211, 211, 2);
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .nav-link {
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
 }
