@@ -71,10 +71,6 @@ span.fa.fa-linkedin.fa-2x {
   color: #007bb6;
 }
 
-ul.list-group {
-  display: inline;
-}
-
 #maro {
   margin-top: 7px;
   padding: 0;
@@ -109,4 +105,20 @@ ul.list-group {
     margin-left: 5px;
     margin-top: 5px;
   }
+}
+
+nav.navbar.shrink .nav-link {
+  font-size: 20px;
+}
+
+nav.navbar.shrink .navbar-brand img {
+  margin-right: 50px;
+  height: 80px;
+  width: 85px;
+  -webkit-transition: height 0.43s, line-height 0.43s; /* Safari */
+  transition: height 0.43s, line-height 0.43s;
+}
+
+nav.navbar.shrink {
+  padding-left: 60px;
 }

@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <title>Vision Center Sweden</title>
+
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Lora|Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -14,9 +16,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#000000">
 
-  <link rel="shortcut icon" href="./src/Assests/icon.jpg">
+  <link rel="shortcut icon" href="./favicon.png">
 
-  <title>VisionCenter.se</title>
 </head>
 
 <body>
@@ -35,7 +36,7 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
     crossorigin="anonymous"></script>
-  
+
   <script>
     // Navbar Collapse Closing JS 
     $(function () {
@@ -44,8 +45,16 @@
         navMain.collapse('hide');
       });
     });
-  </script>
 
+    // Navbar Auto Sizing JS 
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('nav').addClass('shrink');
+      } else {
+        $('nav').removeClass('shrink');
+      }
+    });
+  </script>
 </body>
 
 </html>
