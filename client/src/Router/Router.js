@@ -23,7 +23,6 @@ const routers = () => (
   <Router>
     <div>
       <Nav />
-
       <Route exact path="/" component={Home} />
       <Route exact path="/grundaren" component={Grundaren} />
       <Route exact path="/historia" component={Historia} />
@@ -39,7 +38,6 @@ const routers = () => (
       <Route exact path="/sponsorer" component={Sponsorer} />
       <Route exact path="/turkiet" component={Turkiet} />
       <Route exact path="/kontakt" component={Kontakt} />
-
       <Footer />
     </div>
   </Router>

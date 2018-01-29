@@ -22,7 +22,8 @@
     "lint:eslint": "eslint .",
     "lint:stylelint": "stylelint .",
     "airbnb": "yarn run lint:eslint && yarn run lint:stylelint",
-    "format": "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src, __tests__}/**/*.js\"",
+    "format":
+      "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src, __tests__}/**/*.js\"",
     "lint": "jshint .",
     "validate": "npm ls"
   },
@@ -40,10 +41,7 @@
     "stylelint": "^8.4.0"
   },
   "lint-staged": {
-    "*.js": [
-      "yarn run format",
-      "git add"
-    ]
+    "*.js": ["yarn run format", "git add"]
   },
   "pre-commit": "lint-staged"
 }
