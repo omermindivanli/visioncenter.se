@@ -5,6 +5,8 @@ import sponsor3 from '../../Assests/Sponsors/sponsor3.png';
 
 const Sponsorer = () => (
   <section className="container col-md-7 bg-white shadow-box" id="portfolio">
+    <br />
+    <br />
     <div className="container text-center">
       <h2 className="section-heading text-uppercase">Sponsorer</h2>
       <div className="row">

@@ -8,5 +8,9 @@
     "start": "node server.js"
   },
   "author": "omer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "nodemailer": "^4.4.2"
+  }
 }

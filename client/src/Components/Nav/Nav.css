@@ -112,13 +112,13 @@ nav.navbar.shrink .nav-link {
 }
 
 nav.navbar.shrink .navbar-brand img {
-  margin-right: 50px;
   height: 80px;
   width: 85px;
   -webkit-transition: height 0.43s, line-height 0.43s; /* Safari */
   transition: height 0.43s, line-height 0.43s;
 }
 
-nav.navbar.shrink {
-  padding-left: 60px;
+nav.navbar.shrink .navbar-brand {
+  margin-right: 85px;
+  margin-left: 70px;
 }
