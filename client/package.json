@@ -43,5 +43,6 @@
   "lint-staged": {
     "*.js": ["yarn run format", "git add"]
   },
-  "pre-commit": "lint-staged"
+  "pre-commit": "lint-staged",
+  "proxy": "http://localhost:5000"
 }

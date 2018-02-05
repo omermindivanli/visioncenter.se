@@ -100,6 +100,11 @@ const Nav = () => (
                 MILJÖ ARBETE
               </a>
             </Link>
+            <Link className="nav-item active" to="/nightshift">
+              <a id="greenButton" className="nav-link active">
+                TRYGGHETSVANDRING
+              </a>
+            </Link>
             <Link className="nav-item active" to="/film">
               <a id="greenButton" className="nav-link active">
                 FILM

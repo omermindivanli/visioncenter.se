@@ -1,6 +1,5 @@
 import React from 'react';
 import './Aktiviteter.css';
-import dervisAksay from '../../Assests/Aktiviteter/dervisAksay.jpg';
 import aktivity1 from '../../Assests/Aktiviteter/aktivity1.png';
 import aktivity2 from '../../Assests/Aktiviteter/aktivity2.png';
 import aktivity3 from '../../Assests/Aktiviteter/aktivity3.png';
@@ -12,7 +11,6 @@ import aktivity8 from '../../Assests/Aktiviteter/aktivity8.png';
 import aktivity9 from '../../Assests/Aktiviteter/aktivity9.png';
 import aktivity10 from '../../Assests/Aktiviteter/aktivity10.png';
 import aktivity11 from '../../Assests/Aktiviteter/aktivity11.png';
-import dervisPhoto1 from '../../Assests/Aktiviteter/dervisPhoto1.png';
 
 const Aktiviteter = () => (
   <div className="container">
@@ -41,14 +39,9 @@ const Aktiviteter = () => (
 
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img className="d-block w-100" src={dervisAksay} alt="First slide" />
-        </div>
-        <div className="carousel-item">
           <img className="d-block w-100" src={aktivity1} alt="Second slide" />
         </div>
-        <div className="carousel-item">
-          <img className="d-block w-100" src={dervisPhoto1} alt="Third slide" />
-        </div>
+
         <div className="carousel-item ">
           <img className="d-block w-100" src={aktivity2} alt="Fourth slide" />
         </div>

@@ -1,6 +1,10 @@
 'use strict';
-require('dotenv').config();
 const nodemailer = require('nodemailer');
+const express = require('express');
+const nodemon = require('nodemon');
+const app = express();
+const port = process.env.PORT || 5000;
+require('dotenv').config();
 
 nodemailer.createTestAccount((err, account) => {
   let transporter = nodemailer.createTransport({
@@ -30,3 +34,9 @@ nodemailer.createTestAccount((err, account) => {
     console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
   });
 });
+
+app.get('/api/hello', (req, res) => {
+  res.send({ express: 'Välkommen till Vision Center Sweden' });
+});
+
+app.listen(port, () => console.log(`Listening on port ${port}`));

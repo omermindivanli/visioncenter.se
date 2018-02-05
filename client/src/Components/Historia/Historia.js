@@ -3,6 +3,7 @@ import certificate from '../../Assests/certificate.png';
 import historia2 from '../../Assests/historia2.png';
 import historia3 from '../../Assests/historia3.png';
 import historia4 from '../../Assests/historia4.png';
+import utmarkt2013 from '../../Assests/Home/utmarkt2013.jpg';
 
 const Historia = () => (
   <div>
@@ -119,6 +120,14 @@ const Historia = () => (
             <li>Drogförebyggande arbete</li>
           </ul>
           <img className="img-fluid" src={certificate} alt="First slide" />
+          <div className="col-md-3">
+            <img
+              className="shadow-box featurette-image img-fluid mx-auto"
+              src={utmarkt2013}
+              data-src="holder.js/500x500/auto"
+              alt="Generic placeholder"
+            />
+          </div>
         </div>
       </div>
       <br />
