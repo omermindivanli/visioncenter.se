@@ -5,7 +5,7 @@ import historia3 from '../../Assests/Historia/historia3.png';
 import historia4 from '../../Assests/Historia/historia4.png';
 import utmarkt2013 from '../../Assests/Home/utmarkt2013.jpg';
 
-const Historia = () => (
+const Nightshift = () => (
   <div>
     <div className="container">
       <div className="row">
@@ -134,11 +134,11 @@ const Historia = () => (
       <p className="">
         Vision Centers engagemang genom åren har gett oss en stark förankring i lokalsamhället med
         goda kontakter med kommun, socialtjänst, kultur- och fritidsförvaltning, arbetsförmedling,
-        polis, ungdomsmottagningar och med en lång rad föreningar i området. Vi har också utvecklat
+        polis, ungdomsmotta gningar och med en lång rad föreningar i området. Vi har också utvecklat
         kontakter med flera omkringliggande kommuner.
       </p>
     </div>
   </div>
 );
 
-export default Historia;
+export default Nightshift;

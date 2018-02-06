@@ -4,6 +4,8 @@ import logo_visionCenter from '../../Assests/logo_visionCenter.jpg';
 
 const Stadgar = () => (
   <div className="container">
+    <br />
+    <br />
     <div className="container col-6">
       <img
         alt=""
@@ -617,6 +619,7 @@ const Stadgar = () => (
         </div>
       </div>
     </div>
+    <br />
   </div>
 );
 

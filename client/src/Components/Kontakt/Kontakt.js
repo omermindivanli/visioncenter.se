@@ -84,7 +84,7 @@ const Kontakt = () => (
             <span className="glyphicon glyphicon-globe" /> Our office
           </legend>
           <address>
-            <strong>SWEDEN Vision Center, AB.</strong>
+            <strong>Vision Center SWEDEN, AB.</strong>
             <br />
             Handens Stationsväg 19, Handen<br />
             Stockholm, Sweden 13640<br />
