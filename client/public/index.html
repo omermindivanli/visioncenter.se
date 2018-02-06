@@ -37,24 +37,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
     crossorigin="anonymous"></script>
 
-  <script>
-    // Navbar Collapse Closing JS 
-    $(function () {
-      var navMain = $(".navbar-collapse");
-      navMain.on("click", "a", null, function () {
-        navMain.collapse('hide');
-      });
-    });
-
-    // Navbar Auto Sizing JS 
-    $(window).scroll(function () {
-      if ($(document).scrollTop() > 50) {
-        $('nav').addClass('shrink');
-      } else {
-        $('nav').removeClass('shrink');
-      }
-    });
-  </script>
+  <script src="./main.js"></script>
 </body>
 
 </html>

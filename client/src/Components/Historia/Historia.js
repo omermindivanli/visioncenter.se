@@ -1,9 +1,17 @@
 import React from 'react';
+import historia2 from '../../Assests/Historia/historia2.png';
+import historia3 from '../../Assests/Historia/historia3.png';
+import historia4 from '../../Assests/Historia/historia4.png';
 import certificate from '../../Assests/certificate.png';
-import historia2 from '../../Assests/historia2.png';
-import historia3 from '../../Assests/historia3.png';
-import historia4 from '../../Assests/historia4.png';
 import utmarkt2013 from '../../Assests/Home/utmarkt2013.jpg';
+import meet from '../../Assests/Historia/meet.jpg';
+import night from '../../Assests/Historia/night.jpg';
+import nightshift from '../../Assests/Historia/nightshift.jpg';
+import car1 from '../../Assests/Historia/car1.jpg';
+import vard from '../../Assests/Historia/vard.jpg';
+import students from '../../Assests/Historia/students.jpg';
+import highMeeting from '../../Assests/Historia/highMeeting.jpg';
+import dervisPortrait from '../../Assests/Historia/dervisPortrait.jpg';
 
 const Historia = () => (
   <div>
@@ -26,28 +34,56 @@ const Historia = () => (
         </div>
 
         <div className="col-md-6">
-          <div id="myCarousel" className=" antiBlur carousel slide" data-ride="carousel">
+          <div
+            data-interval="2000"
+            id="myCarousel"
+            className=" antiBlur carousel slide"
+            data-ride="carousel"
+          >
             <ol className="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" className="active" />
               <li data-target="#myCarousel" data-slide-to="1" />
               <li data-target="#myCarousel" data-slide-to="2" />
               <li data-target="#myCarousel" data-slide-to="3" />
+              <li data-target="#myCarousel" data-slide-to="4" />
+              <li data-target="#myCarousel" data-slide-to="5" />
+              <li data-target="#myCarousel" data-slide-to="6" />
+              <li data-target="#myCarousel" data-slide-to="7" />
+              <li data-target="#myCarousel" data-slide-to="8" />
+              <li data-target="#myCarousel" data-slide-to="9" />
+              <li data-target="#myCarousel" data-slide-to="10" />
             </ol>
+
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img
-                  className="img-fluid first-slide"
-                  src="http://x-conshaninge.se/x/wp-content/uploads/2017/04/Boende-slider-3.jpg"
-                  alt="First slide"
-                />
-                <div className="container" />
+                <img className="img-fluid first-slide" src={dervisPortrait} alt="First slide" />
               </div>
               <div className="carousel-item">
-                <img className="img-fluid second-slide" src="" alt="Second slide" />
+                <img className="img-fluid third-slide" src={vard} alt="Third slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="img-fluid third-slide" src={nightshift} alt="Third slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="img-fluid third-slide" src={car1} alt="Third slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="img-fluid third-slide" src={night} alt="Third slide" />
               </div>
               <div className="carousel-item">
                 <img className="img-fluid third-slide" src={historia2} alt="Third slide" />
-                <div className="container" />
+              </div>
+              <div className="carousel-item">
+                <img className="img-fluid third-slide" src={students} alt="Third slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="img-fluid second-slide" src={historia2} alt="Second slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="img-fluid third-slide" src={highMeeting} alt="Third slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="img-fluid third-slide" src={meet} alt="Third slide" />
               </div>
               <div className="carousel-item">
                 <img className="img-fluid fourth-slide" src={historia3} alt="Second slide" />
@@ -81,7 +117,13 @@ const Historia = () => (
         och demokrati, utbildat, haft svenskspråkträning, gett ut en film om hederskulturens
         avigsidor….och mycket mer.
       </p>
-
+      <img
+        className="img-fluid first-slide"
+        src="http://x-conshaninge.se/x/wp-content/uploads/2017/04/Boende-slider-3.jpg"
+        alt="First slide"
+      />
+      <br />
+      <br />
       <h6>Vi har också genomfört/genomför flera stora ungdomsprojekt:</h6>
       <ul>
         <li>Folkhälsomyndigheten-Lyckas utan spel</li>

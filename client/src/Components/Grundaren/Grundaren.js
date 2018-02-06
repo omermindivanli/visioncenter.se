@@ -1,7 +1,7 @@
 import React from 'react';
 import './Grundaren.css';
-import grundarenSlider from '../../Assests/grundarenSlider.jpg';
-import dervisBey from '../../Assests/dervisBey.jpeg';
+import grundarenSlider from '../../Assests/Grundaren/grundarenSlider.jpg';
+import dervisBey from '../../Assests/Grundaren/dervisBey.jpeg';
 
 const Grundaren = () => (
   <div className="container">
@@ -10,7 +10,12 @@ const Grundaren = () => (
       <em>Dervis ”Dennis” Aksay, Director / Founder</em>
     </p>
 
-    <div id="myCarousel" className=" col-md-6 carousel slide float-right" data-ride="carousel">
+    <div
+      data-interval="2000"
+      id="myCarousel"
+      className=" col-md-6 carousel slide float-right"
+      data-ride="carousel"
+    >
       <ol className="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" className="active" />
         <li data-target="#myCarousel" data-slide-to="1" />

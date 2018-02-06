@@ -1,6 +1,6 @@
-/* eslint-disable */
 import React from 'react';
 import './Kontakt.css';
+
 const Kontakt = () => (
   <div className="container">
     <h2 className="container">Kontakt</h2>

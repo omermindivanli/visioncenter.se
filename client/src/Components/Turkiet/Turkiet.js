@@ -4,7 +4,7 @@ import iconTurkey from '../../Assests/iconTurkey.png';
 import turkiet2 from '../../Assests/Turkiet/turkiet2.png';
 import turkiet3 from '../../Assests/Turkiet/turkiet3.png';
 import turkiet4 from '../../Assests/Turkiet/turkiet4.png';
-import dervisBey from '../../Assests/dervisBey.jpeg';
+import dervisBey from '../../Assests/Grundaren/dervisBey.jpeg';
 
 const Turkiet = () => (
   <div className="container">
@@ -15,7 +15,12 @@ const Turkiet = () => (
       <br />
 
       <div className="col-md-6 img-fluid float-right">
-        <div id="myCarousel" className="shadow-box carousel slide" data-ride="carousel">
+        <div
+          data-interval="2000"
+          id="myCarousel"
+          className="shadow-box carousel slide"
+          data-ride="carousel"
+        >
           <ol className="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" className="active" />
             <li data-target="#myCarousel" data-slide-to="1" />
@@ -142,11 +147,9 @@ const Turkiet = () => (
         bir ortak calışma, rehabilitasyon tedavisinin baska bir ülkedede gerceklesme ihtimali dahil,
         gerceklestirmekdir.
       </p>
-
       <hr />
       <br />
       <br />
-
       <img className="img-fluid float-right col-xl-4" src={dervisBey} alt="" />
       <h5>VIZYON MERKEZİ KURUCUSU DERVİŞ DENNIS AKSAY</h5>
       <p>

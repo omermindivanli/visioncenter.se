@@ -10,6 +10,7 @@ const MiljArbete = () => (
   <div className="container miljöArbete">
     <h2 className="col-md-8">Miljö Arbete</h2>
     <div
+      data-interval="2000"
       id="carouselExampleIndicators"
       className="float-right col-lg-6 carousel slide"
       data-ride="carousel"

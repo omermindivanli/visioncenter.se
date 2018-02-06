@@ -1,8 +1,8 @@
 import React from 'react';
 import certificate from '../../Assests/certificate.png';
-import historia2 from '../../Assests/historia2.png';
-import historia3 from '../../Assests/historia3.png';
-import historia4 from '../../Assests/historia4.png';
+import historia2 from '../../Assests/Historia/historia2.png';
+import historia3 from '../../Assests/Historia/historia3.png';
+import historia4 from '../../Assests/Historia/historia4.png';
 import utmarkt2013 from '../../Assests/Home/utmarkt2013.jpg';
 
 const Historia = () => (

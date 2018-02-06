@@ -7,7 +7,6 @@ import aktivity4 from '../../Assests/Aktiviteter/aktivity4.png';
 import aktivity5 from '../../Assests/Aktiviteter/aktivity5.png';
 import aktivity6 from '../../Assests/Aktiviteter/aktivity6.png';
 import aktivity7 from '../../Assests/Aktiviteter/aktivity7.png';
-import aktivity8 from '../../Assests/Aktiviteter/aktivity8.png';
 import aktivity9 from '../../Assests/Aktiviteter/aktivity9.png';
 import aktivity10 from '../../Assests/Aktiviteter/aktivity10.png';
 import aktivity11 from '../../Assests/Aktiviteter/aktivity11.png';
@@ -18,6 +17,7 @@ const Aktiviteter = () => (
     <h6 className="">FÖREBYGGANDE ARBETE MED UNGDOMAR 13-26 ÅR</h6>
     <br />
     <div
+      data-interval="2000"
       id="carouselExampleIndicators"
       className="float-right col-lg-6 carousel slide"
       data-ride="carousel"
@@ -61,7 +61,7 @@ const Aktiviteter = () => (
           <img className="d-block w-100" src={aktivity7} alt="First slide" />
         </div>
         <div className="carousel-item">
-          <img className="d-block w-100" src={aktivity8} alt="First slide" />
+          <img className="d-block w-100" src="" alt="First slide" />
         </div>
         <div className="carousel-item">
           <img className="d-block w-100" src={aktivity9} alt="First slide" />

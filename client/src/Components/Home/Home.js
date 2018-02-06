@@ -35,7 +35,12 @@ class Home extends Component {
       <div className="container">
         <h4 className="color">{this.state.response}</h4>
         <br />
-        <div id="myCarousel" className="shadow-box carousel slide antiBlur" data-ride="carousel">
+        <div
+          id="myCarousel"
+          data-interval="2000"
+          className="shadow-box carousel slide antiBlur"
+          data-ride="carousel"
+        >
           <ol className="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" className="active" />
             <li data-target="#myCarousel" data-slide-to="1" />
