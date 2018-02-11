@@ -12,8 +12,8 @@ nav {
 
 .navbar-brand img {
   margin-right: 10px;
-  height: 155px;
-  width: 165px;
+  height: 115px;
+  width: 120px;
 }
 
 .nav-link img {
@@ -105,20 +105,4 @@ span.fa.fa-linkedin.fa-2x {
     margin-left: 5px;
     margin-top: 5px;
   }
-}
-
-nav.navbar.shrink .nav-link {
-  font-size: 20px;
-}
-
-nav.navbar.shrink .navbar-brand img {
-  height: 80px;
-  width: 85px;
-  -webkit-transition: height 0.43s, line-height 0.43s; /* Safari */
-  transition: height 0.43s, line-height 0.43s;
-}
-
-nav.navbar.shrink .navbar-brand {
-  margin-right: 85px;
-  margin-left: 70px;
 }

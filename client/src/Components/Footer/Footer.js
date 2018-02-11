@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Footer.css';
 import logo from '../../Assests/logo.png';
 
@@ -10,7 +9,7 @@ const Footer = () => (
       <div className="row">
         <div className="col-12 col-md">
           <img className="mb-2" src={logo} alt="" width="90" height="90" />
-          <small className="d-block mb-3 text-muted">&copy; 2017-2018</small>
+          <small className="d-block mb-3 text-muted">&copy; 2017-2019</small>
         </div>
         <div className="col-6 col-md">
           <h5>Om Oss</h5>
@@ -83,7 +82,7 @@ const Footer = () => (
           <h5>Kontakt</h5>
           <ul className="list-unstyled text-small">
             <li>
-              <a className="text-muted" href="#">
+              <a className="text-muted" href="">
                 Vision Center Sweden AB
               </a>
             </li>
@@ -97,6 +96,7 @@ const Footer = () => (
           </ul>
         </div>
       </div>
+      <hr />
       <p id="lastP" className="text-small text-muted">
         &copy; 2017-2019 Created by <a href="http://omermindivanli.com">Ömer Mindivanli</a>
         , Front-End Web Utveckläre

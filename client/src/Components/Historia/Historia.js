@@ -1,7 +1,6 @@
 import React from 'react';
 import historia2 from '../../Assests/Historia/historia2.png';
 import historia3 from '../../Assests/Historia/historia3.png';
-import historia4 from '../../Assests/Historia/historia4.png';
 import certificate from '../../Assests/certificate.png';
 import utmarkt2013 from '../../Assests/Home/utmarkt2013.jpg';
 import meet from '../../Assests/Historia/meet.jpg';
@@ -11,7 +10,11 @@ import car1 from '../../Assests/Historia/car1.jpg';
 import vard from '../../Assests/Historia/vard.jpg';
 import students from '../../Assests/Historia/students.jpg';
 import highMeeting from '../../Assests/Historia/highMeeting.jpg';
-import dervisPortrait from '../../Assests/Historia/dervisPortrait.jpg';
+import dervisPortrait from '../../Assests/Historia/dervisPortrait.jpeg';
+import dsc from '../../Assests/Historia/dsc.jpg';
+import photoE from '../../Assests/Historia/photoE.jpg';
+import photoD from '../../Assests/Historia/photoD.jpg';
+import photoZ from '../../Assests/Historia/photoZ.jpg';
 
 const Historia = () => (
   <div>
@@ -52,14 +55,17 @@ const Historia = () => (
               <li data-target="#myCarousel" data-slide-to="8" />
               <li data-target="#myCarousel" data-slide-to="9" />
               <li data-target="#myCarousel" data-slide-to="10" />
+              <li data-target="#myCarousel" data-slide-to="11" />
+              <li data-target="#myCarousel" data-slide-to="12" />
+              <li data-target="#myCarousel" data-slide-to="13" />
             </ol>
 
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className="img-fluid first-slide" src={dervisPortrait} alt="First slide" />
+                <img className="img-fluid third-slide" src={vard} alt="Third slide" />
               </div>
               <div className="carousel-item">
-                <img className="img-fluid third-slide" src={vard} alt="Third slide" />
+                <img className="img-fluid first-slide" src={dsc} alt="First slide" />
               </div>
               <div className="carousel-item">
                 <img className="img-fluid third-slide" src={nightshift} alt="Third slide" />
@@ -89,7 +95,16 @@ const Historia = () => (
                 <img className="img-fluid fourth-slide" src={historia3} alt="Second slide" />
               </div>
               <div className="carousel-item">
-                <img className="img-fluid fifth-slide" src={historia4} alt="Second slide" />
+                <img className="img-fluid fifth-slide" src={dervisPortrait} alt="Second slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="img-fluid fifth-slide" src={photoE} alt="Second slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="img-fluid fifth-slide" src={photoD} alt="Second slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="img-fluid fifth-slide" src={photoZ} alt="Second slide" />
               </div>
             </div>
 

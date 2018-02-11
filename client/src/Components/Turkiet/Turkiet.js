@@ -5,15 +5,17 @@ import turkiet2 from '../../Assests/Turkiet/turkiet2.png';
 import turkiet3 from '../../Assests/Turkiet/turkiet3.png';
 import turkiet4 from '../../Assests/Turkiet/turkiet4.png';
 import dervisBey from '../../Assests/Grundaren/dervisBey.jpeg';
+import dennis035 from '../../Assests/Turkiet/dennis035.jpeg';
+import dennis017 from '../../Assests/Turkiet/dennis017.jpeg';
 
 const Turkiet = () => (
   <div className="container">
     <div className="turkiet">
-      <h4>VISION CENTER TURKEY ( Bagimlilikla Mücadele ve Mahkumların Rehabilitasyon Derneği )</h4>
+      <h5 className="text-center text-muted">Dürüstlük - Dayanışma - Gelecek</h5>
+      <h3>VISION CENTER TURKEY</h3>
       <br />
-      <h5 className="text-muted">Dürüstlük - Dayanışma - Gelecek</h5>
+      <h5 className="text-muted">Bagimlilikla Mücadele ve Mahkumların Rehabilitasyon Derneği</h5>
       <br />
-
       <div className="col-md-6 img-fluid float-right">
         <div
           data-interval="2000"
@@ -179,6 +181,7 @@ const Turkiet = () => (
         defalarca hapse girmiş çıkmıştır. Uyuşturucu, kumar batağında, tefecilik, gasp ve soygun
         gibi ağır suçlar işlemek zorunda kalmıştır.
       </p>
+      <img className="img-fluid float-right col-xl-4" src={dennis035} alt="" />
       <p>
         Stockholm’de, pizza, restorant ve kuaför salonu işletmiştir. Derviş AKSAY ilk eşinden
         ayrılırken büyük sıkıntılar ve bunalımlar yaşamıştır. Yanında sorunlarını paylaşabilecek
@@ -233,6 +236,7 @@ const Turkiet = () => (
           </em>
         </strong>
       </p>
+      <img className="img-fluid float-right col-xl-4" src={dennis017} alt="" />
       <p>
         2008 İle 2009 yılları arasında ikinci defa (tedavi-rehabilitasyon merkezinde) tedavi gören
         AKSAY, burada aldığı destek ile hayatını ve bütün çevresini değiştirir. Derviş AKSAY

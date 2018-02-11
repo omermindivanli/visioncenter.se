@@ -5,7 +5,7 @@ const OmVisionCenter = () => (
   <div className="container">
     <div className="row">
       <div className="col-md-6">
-        <h3>VISION CENTER SWEDEN Arbetar i Brottsförebyggande Syfte</h3>
+        <h4>VISION CENTER SWEDEN <br /> Arbetar i Brottsförebyggande Syfte</h4>
         <h5>Ungdomar</h5>
         <br />
         <p>
@@ -20,7 +20,7 @@ const OmVisionCenter = () => (
           till arbetsträning/anställning.
         </p>
       </div>
-      <div className="col-md-5">
+      <div className="col-lg-5">
         <img src={logo} className="img-fluid" alt="pic" />
       </div>
       <p className="container">
@@ -30,7 +30,7 @@ const OmVisionCenter = () => (
       </p>
     </div>
 
-    <p className="">
+    <p>
       För de unga som redan har hamnat i kriminalitet och missbruk men som vill börja ett nytt
       ”rent” liv, har vi olika former av hjälp att ge. Vi erbjuder kontaktmannaskap eller Stödboende
       där kontaktmannaskap ingår. Beslutet om vilken hjälp individen behöver tas ihop med
@@ -39,8 +39,8 @@ const OmVisionCenter = () => (
       beslut i livet.
     </p>
 
-    <h5 className="">Vuxna</h5>
-    <p className="">
+    <h5>Vuxna</h5>
+    <p>
       Vi har uppsökande verksamhet på anstalter, behandlingshem m.m. där vi ger föreläsningar om
       missbrukets baksidor samt ger information om den hjälp vi kan ge för att de ska kunna bygga
       upp ett nytt liv utan droger och kriminalitet. Vårt mål är att kunna motivera de intagna till

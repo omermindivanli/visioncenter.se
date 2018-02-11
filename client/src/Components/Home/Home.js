@@ -69,9 +69,9 @@ class Home extends Component {
                 src="http://x-conshaninge.se/x/wp-content/uploads/2017/04/Föreläsning-slider-kopia-1.jpg"
                 alt="Third slide"
               />
-              <div className="container" />
             </div>
           </div>
+
 
           <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true" />
@@ -183,7 +183,7 @@ class Home extends Component {
           <div className="row featurette">
             <div className="col-md-7 push-md-5">
               <h2 className="featurette-heading">
-                Vision Center arbetar i brottsförebyggande syfte. <span className="text-muted" />
+                Vision Center arbetar i brottsförebyggande syfte...<span className="text-muted" />
               </h2>
               <p className="lead">
                 Vi kämpar för att vara en god resurs för ungdomar och deras föräldrar. Vi SER
@@ -204,7 +204,7 @@ class Home extends Component {
           <div className="row featurette">
             <div className="col-md-7">
               <h2 className="featurette-heading">
-                Vision Centers grundare och eldsjäl. <span className="text-muted"> </span>
+                Vision Centers grundare och eldsjäl...<span className="text-muted"> </span>
               </h2>
               <p className="lead">
                 Vi har uppsökande verksamhet på anstalter, behandlingshem m.m. där vi ger
@@ -225,7 +225,7 @@ class Home extends Component {
             </div>
           </div>
         </section>
-      </div>
+      </div >
     );
   }
 }

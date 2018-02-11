@@ -2,6 +2,8 @@ import React from 'react';
 import './Grundaren.css';
 import grundarenSlider from '../../Assests/Grundaren/grundarenSlider.jpg';
 import dervisBey from '../../Assests/Grundaren/dervisBey.jpeg';
+import dervis033 from '../../Assests/Grundaren/dervis033.jpeg';
+import dsc from '../../Assests/Historia/dsc.jpg';
 
 const Grundaren = () => (
   <div className="container">
@@ -9,29 +11,71 @@ const Grundaren = () => (
     <p className="col-md-8 text-muted">
       <em>Dervis ”Dennis” Aksay, Director / Founder</em>
     </p>
-
+    <div className="">
+      <img className="img-fluid col-md-6 float-right" src={dervisBey} alt="First slide" />
+    </div>
+    <p className="col-md-6">
+      ”Min bakgrund är mitt verktyg till att hjälpa andra in på bättre vägar. På gott och ont har
+      jag gått den hårda vägen. Jag har tagit mig ur kriminalitet för att idag få uppleva ett liv
+      utan oro och ångest och jag har förstått hur viktigt det är att ha nära och kära som tror på
+      en. Nu vill jag förmedla mina kunskaper och erfarenheter för att förebygga kriminella tankar
+      hos människor som lever i utanförskap” /Dervis
+    </p>
+    <p className="col-md-6">
+      Dervis ”Dennis” Aksay är uppvuxen i Turkiet med hederskultur som måttstock. Han blev som
+      18-åring bortgift i Sverige trots att varken kvinnan eller han ville gifta sig med varandra.
+      Utanförskap blev hans vardag då svärföräldrarna vägrade låta honom integreras i det nya
+      landet. Han säger själv ”Ingen såg mig”. Frustrationen tog honom till slut till droger,
+      spelmissbruk och kriminalitet.
+    </p>
+    <p className="col-lg-12">
+      2008 blev han fri från allt och bestämde sig för att använda sin energi till att hjälpa andra,
+      speciellt ungdomar så att de inte ska behöva uppleva det som han gjorde. 2009 startade han
+      X-CONS Haninge ideella förening som idag har bytt namn till Vision Center. Att föreningen
+      ändrade namn till Vision Center berodde på två saker:
+    </p>
+    <ul className="col-md-6">
+      <li>Samhället sätter ofta en negativ stämpel på en organisation som heter Vision Center.</li>
+      <li>
+        Vi ville betona att vi kämpar för att alla ska känna att de har en vision/framtidsdröm.
+      </li>
+    </ul>
+    <p className="col-lg-12">
+      Resan från 2009 har gått både upp och ner (det är många fördomar att kämpa mot när man är en
+      före detta kriminell som vill leva hederligt) men han har lyckats! Genom idogt arbete har han
+      skapat en verksamhet i Haninge som verkligen hjälper. 2016 startade han en liknande verksamhet
+      i Istanbul, Turkiet.
+    </p>
+    <div className="">
+      <img className="img-fluid col-lg-13 shadow-box" src={dervis033} alt="First slide" />
+    </div>
+    <br />
+    <br />
     <div
       data-interval="2000"
       id="myCarousel"
-      className=" col-md-6 carousel slide float-right"
+      className=" container col-md-6 carousel slide"
       data-ride="carousel"
     >
       <ol className="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" className="active" />
         <li data-target="#myCarousel" data-slide-to="1" />
         <li data-target="#myCarousel" data-slide-to="2" />
-        <li data-target="#myCarousel" data-slide-to="3" />
       </ol>
 
       <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img className="img-fluid first-slide" src={dervisBey} alt="First slide" />
-        </div>
-
         <div className="carousel-item">
           <img
+            className="img-fluid first-slide"
+            src="http://www.habername.com/images/other/sema1706-uyusturucu-bana-kimligimi-unutturdu4.20120623024028.jpg"
+            alt="First slide"
+          />
+        </div>
+
+        <div className="carousel-item active">
+          <img
             className="img-fluid second-slide"
-            src="http://3.bp.blogspot.com/-depgydEGW2E/VOSGEOLFFwI/AAAAAAAACHw/vs4VtipleY4/s1600/Vitsippspris-2014_X-Cons.jpg"
+            src={dsc}
             alt="Third slide"
           />
           <div className="carousel-caption text-left">
@@ -73,15 +117,6 @@ const Grundaren = () => (
             </div>
           </div>
         </div>
-
-        <div className="carousel-item">
-          <div className="container" />
-          <img
-            className="img-fluid fourth-slide"
-            src="http://www.habername.com/images/other/sema1706-uyusturucu-bana-kimligimi-unutturdu4.20120623024028.jpg"
-            alt="First slide"
-          />
-        </div>
       </div>
 
       <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -93,42 +128,6 @@ const Grundaren = () => (
         <span className="sr-only">Next</span>
       </a>
     </div>
-
-    <p className="col-md-6">
-      ”Min bakgrund är mitt verktyg till att hjälpa andra in på bättre vägar. På gott och ont har
-      jag gått den hårda vägen. Jag har tagit mig ur kriminalitet för att idag få uppleva ett liv
-      utan oro och ångest och jag har förstått hur viktigt det är att ha nära och kära som tror på
-      en. Nu vill jag förmedla mina kunskaper och erfarenheter för att förebygga kriminella tankar
-      hos människor som lever i utanförskap” /Dervis
-    </p>
-    <p className="col-md-6">
-      Dervis ”Dennis” Aksay är uppvuxen i Turkiet med hederskultur som måttstock. Han blev som
-      18-åring bortgift i Sverige trots att varken kvinnan eller han ville gifta sig med varandra.
-      Utanförskap blev hans vardag då svärföräldrarna vägrade låta honom integreras i det nya
-      landet. Han säger själv ”Ingen såg mig”. Frustrationen tog honom till slut till droger,
-      spelmissbruk och kriminalitet.
-    </p>
-    <p className="col-lg-12">
-      2008 blev han fri från allt och bestämde sig för att använda sin energi till att hjälpa andra,
-      speciellt ungdomar så att de inte ska behöva uppleva det som han gjorde. 2009 startade han
-      X-CONS Haninge ideella förening som idag har bytt namn till Vision Center. Att föreningen
-      ändrade namn till Vision Center berodde på två saker:
-    </p>
-
-    <ul>
-      <li>Samhället sätter ofta en negativ stämpel på en organisation som heter Vision Center.</li>
-      <li>
-        Vi ville betona att vi kämpar för att alla ska känna att de har en vision/framtidsdröm.
-      </li>
-    </ul>
-
-    <p className="col-lg-12">
-      Resan från 2009 har gått både upp och ner (det är många fördomar att kämpa mot när man är en
-      före detta kriminell som vill leva hederligt) men han har lyckats! Genom idogt arbete har han
-      skapat en verksamhet i Haninge som verkligen hjälper. 2016 startade han en liknande verksamhet
-      i Istanbul, Turkiet.
-    </p>
-    <p className="col-lg-12" />
   </div>
 );
 
