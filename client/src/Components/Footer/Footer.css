@@ -4,13 +4,10 @@
   position: relative;
   bottom: 0;
   background-color: rgba(211, 211, 211, 2);
+  box-shadow: 2px 3px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 #lastP {
   margin: 0;
   padding-bottom: 10px;
-}
-
-#border {
-  border-bottom: solid green 2px;
 }

@@ -6,6 +6,14 @@ import turkiet4 from '../../Assests/Turkiet/turkiet4.png';
 import dervisBey from '../../Assests/Grundaren/dervisBey.jpeg';
 import dennis035 from '../../Assests/Turkiet/dennis035.jpeg';
 import dennis017 from '../../Assests/Turkiet/dennis017.jpeg';
+import turkiet7 from '../../Assests/Turkiet/turkiet7.JPG';
+import turkiet8 from '../../Assests/Turkiet/turkiet8.JPG';
+import turkiet9 from '../../Assests/Turkiet/turkiet9.JPG';
+import turkiet10 from '../../Assests/Turkiet/turkiet10.JPG';
+import turkiet6 from '../../Assests/Turkiet/turkiet6.png';
+import active1 from '../../Assests/Turkiet/active1.jpg';
+import misiad1 from '../../Assests/Turkiet/misiad1.jpg';
+import misiad from '../../Assests/Turkiet/misiad.jpg';
 
 const Turkiet = () => (
   <div className="container">
@@ -15,7 +23,7 @@ const Turkiet = () => (
       <br />
       <h5 className="text-muted">Bagimlilikla Mücadele ve Mahkumların Rehabilitasyon Derneği</h5>
       <br />
-      <div className="col-md-6 img-fluid float-right">
+      <div className="col-md-6 auto img-fluid float-right">
         <div
           data-wrap="true"
           data-interval="2000"
@@ -29,13 +37,16 @@ const Turkiet = () => (
             <li data-target="#myCarousel" data-slide-to="2" />
             <li data-target="#myCarousel" data-slide-to="3" />
             <li data-target="#myCarousel" data-slide-to="4" />
+            <li data-target="#myCarousel" data-slide-to="5" />
+            <li data-target="#myCarousel" data-slide-to="6" />
+            <li data-target="#myCarousel" data-slide-to="7" />
+            <li data-target="#myCarousel" data-slide-to="8" />
+            <li data-target="#myCarousel" data-slide-to="9" />
+            <li data-target="#myCarousel" data-slide-to="10" />
           </ol>
 
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="img-fluid first-slide" src={iconTurkey} alt="First slide" />
-            </div>
-            <div className="carousel-item">
               <img
                 className="img-fluid first-slide"
                 src="https://ak4.picdn.net/shutterstock/videos/6651734/thumb/1.jpg"
@@ -43,13 +54,37 @@ const Turkiet = () => (
               />
             </div>
             <div className="carousel-item">
-              <img className="img-fluid second-slide" src={turkiet4} alt="Second slide" />
+              <img className="img-fluid first-slide" src={iconTurkey} alt="First slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="img-fluid fourth-slide" src={active1} alt="Fourth slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="img-fluid second-slide" src={turkiet10} alt="Second slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="img-fluid fourth-slide" src={misiad} alt="Fourth slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="img-fluid fourth-slide" src={misiad1} alt="Fourth slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="img-fluid fourth-slide" src={turkiet7} alt="Fourth slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="img-fluid fourth-slide" src={turkiet8} alt="Fourth slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="img-fluid fourth-slide" src={turkiet9} alt="Fourth slide" />
             </div>
             <div className="carousel-item">
               <img className="img-fluid third-slide" src={turkiet3} alt="Third slide" />
             </div>
             <div className="carousel-item">
-              <img className="img-fluid fourth-slide" src="" alt="Fourth slide" />
+              <img className="img-fluid fourth-slide" src={turkiet6} alt="Fourth slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="img-fluid fourth-slide" src={turkiet4} alt="Fourth slide" />
             </div>
           </div>
 
