@@ -21,6 +21,7 @@ const StudentHouse = () => (
     <div className="container">
       <div className="row">
         <div
+          data-wrap="true"
           data-interval="2000"
           id="myCarousel"
           className="col-lg-6 carousel slide antiBlur"

@@ -26,7 +26,12 @@ const Nightshift = () => (
         </div>
 
         <div className="col-md-6">
-          <div id="myCarousel" className=" antiBlur carousel slide" data-ride="carousel">
+          <div
+            id="myCarousel"
+            data-wrap="true"
+            className=" antiBlur carousel slide"
+            data-ride="carousel"
+          >
             <ol className="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" className="active" />
               <li data-target="#myCarousel" data-slide-to="1" />

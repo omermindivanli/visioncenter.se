@@ -15,6 +15,7 @@ import dsc from '../../Assests/Historia/dsc.jpg';
 import photoE from '../../Assests/Historia/photoE.jpg';
 import photoD from '../../Assests/Historia/photoD.jpg';
 import photoZ from '../../Assests/Historia/photoZ.jpg';
+import photoK from '../../Assests/Historia/photoK.jpg';
 
 const Historia = () => (
   <div>
@@ -38,6 +39,7 @@ const Historia = () => (
 
         <div className="col-md-6">
           <div
+            data-wrap="true"
             data-interval="2000"
             id="myCarousel"
             className=" antiBlur carousel slide"
@@ -105,6 +107,9 @@ const Historia = () => (
               </div>
               <div className="carousel-item">
                 <img className="img-fluid fifth-slide" src={photoZ} alt="Second slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="img-fluid fifth-slide" src={photoK} alt="Second slide" />
               </div>
             </div>
 

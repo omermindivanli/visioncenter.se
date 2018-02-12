@@ -20,6 +20,7 @@ const MiljArbete = () => (
     <h2 className="col-md-6">Miljö Arbete</h2>
     <div
       data-interval="2000"
+      data-wrap="true"
       id="carouselExampleIndicators"
       className="float-right col-lg-6 carousel slide"
       data-ride="carousel"
@@ -141,12 +142,12 @@ const MiljArbete = () => (
 
     <div className="container">
       <p className="col-lg-8">
-        För att säkerställa att personalen verkligen har den kunskap vi lovar har vi skriftliga tester
-        med jämna mellanrum.
-    </p>
+        För att säkerställa att personalen verkligen har den kunskap vi lovar har vi skriftliga
+        tester med jämna mellanrum.
+      </p>
       <h4 className="col-lg-8">
         Tack för ett gott samarbete. <br />Våran uppdragsgivare inom Miljoarbete/Återviningsarbete
-    </h4>
+      </h4>
       <img
         className="img-fluid col-lg-4"
         src="http://www.fastighetsjobb.se/wp-content/uploads/2014/02/HaningeBostader.png"

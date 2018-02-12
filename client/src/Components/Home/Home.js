@@ -38,7 +38,8 @@ class Home extends Component {
         <div
           id="myCarousel"
           data-interval="2000"
-          className="shadow-box carousel slide antiBlur"
+          data-wrap="true"
+          className="auto shadow-box carousel slide antiBlur"
           data-ride="carousel"
         >
           <ol className="carousel-indicators">

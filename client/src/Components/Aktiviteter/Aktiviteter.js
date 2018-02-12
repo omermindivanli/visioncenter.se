@@ -1,15 +1,24 @@
 import React from 'react';
 import './Aktiviteter.css';
+import aktivity12 from '../../Assests/Aktiviteter/aktivity12.JPG';
+import aktivity13 from '../../Assests/Aktiviteter/aktivity13.JPG';
+import aktivity from '../../Assests/Aktiviteter/aktivity.JPG';
 import aktivity1 from '../../Assests/Aktiviteter/aktivity1.png';
 import aktivity2 from '../../Assests/Aktiviteter/aktivity2.png';
-import aktivity3 from '../../Assests/Aktiviteter/aktivity3.png';
-import aktivity4 from '../../Assests/Aktiviteter/aktivity4.png';
+import aktivity3 from '../../Assests/Aktiviteter/aktivity3.JPG';
+import aktivity4 from '../../Assests/Aktiviteter/aktivity4.JPG';
 import aktivity5 from '../../Assests/Aktiviteter/aktivity5.png';
 import aktivity6 from '../../Assests/Aktiviteter/aktivity6.png';
 import aktivity7 from '../../Assests/Aktiviteter/aktivity7.png';
-import aktivity9 from '../../Assests/Aktiviteter/aktivity9.png';
-import aktivity10 from '../../Assests/Aktiviteter/aktivity10.png';
-import aktivity11 from '../../Assests/Aktiviteter/aktivity11.png';
+import aktivity8 from '../../Assests/Aktiviteter/aktivity8.JPG';
+import aktivity9 from '../../Assests/Aktiviteter/aktivity9.JPG';
+import aktivity11 from '../../Assests/Aktiviteter/aktivity11.JPG';
+import aktivity14 from '../../Assests/Aktiviteter/aktivity14.JPG';
+import aktivity15 from '../../Assests/Aktiviteter/aktivity15.JPG';
+import aktivity16 from '../../Assests/Aktiviteter/aktivity16.JPG';
+import aktivity17 from '../../Assests/Aktiviteter/aktivity17.JPG';
+import aktivity18 from '../../Assests/Aktiviteter/aktivity18.JPG';
+import aktivity19 from '../../Assests/Aktiviteter/aktivity19.JPG';
 
 const Aktiviteter = () => (
   <div className="container">
@@ -18,6 +27,7 @@ const Aktiviteter = () => (
     <br />
     <div
       data-interval="2000"
+      data-wrap="true"
       id="carouselExampleIndicators"
       className="float-right col-lg-6 carousel slide"
       data-ride="carousel"
@@ -35,21 +45,27 @@ const Aktiviteter = () => (
         <li data-target="#carouselExampleIndicators" data-slide-to="9" />
         <li data-target="#carouselExampleIndicators" data-slide-to="10" />
         <li data-target="#carouselExampleIndicators" data-slide-to="11" />
+        <li data-target="#carouselExampleIndicators" data-slide-to="12" />
+        <li data-target="#carouselExampleIndicators" data-slide-to="13" />
+        <li data-target="#carouselExampleIndicators" data-slide-to="14" />
+        <li data-target="#carouselExampleIndicators" data-slide-to="15" />
+        <li data-target="#carouselExampleIndicators" data-slide-to="16" />
+        <li data-target="#carouselExampleIndicators" data-slide-to="17" />
+        <li data-target="#carouselExampleIndicators" data-slide-to="18" />
       </ol>
 
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img className="d-block w-100" src={aktivity1} alt="Second slide" />
+          <img className="d-block w-100" src={aktivity} alt="Second slide" />
         </div>
-
         <div className="carousel-item ">
-          <img className="d-block w-100" src={aktivity2} alt="Fourth slide" />
+          <img className="d-block w-100" src={aktivity12} alt="Fourth slide" />
         </div>
         <div className="carousel-item">
-          <img className="d-block w-100" src={aktivity3} alt="Fifth slide" />
+          <img className="d-block w-100" src={aktivity13} alt="Fifth slide" />
         </div>
         <div className="carousel-item">
-          <img className="d-block w-100" src={aktivity4} alt="First slide" />
+          <img className="d-block w-100" src={aktivity9} alt="First slide" />
         </div>
         <div className="carousel-item">
           <img className="d-block w-100" src={aktivity5} alt="First slide" />
@@ -61,16 +77,40 @@ const Aktiviteter = () => (
           <img className="d-block w-100" src={aktivity7} alt="First slide" />
         </div>
         <div className="carousel-item">
-          <img className="d-block w-100" src="" alt="First slide" />
+          <img className="d-block w-100" src={aktivity8} alt="First slide" />
         </div>
         <div className="carousel-item">
-          <img className="d-block w-100" src={aktivity9} alt="First slide" />
+          <img className="d-block w-100" src={aktivity14} alt="First slide" />
         </div>
         <div className="carousel-item">
-          <img className="d-block w-100" src={aktivity10} alt="First slide" />
+          <img className="d-block w-100" src={aktivity4} alt="First slide" />
+        </div>
+        <div className="carousel-item">
+          <img className="d-block w-100" src={aktivity1} alt="First slide" />
         </div>
         <div className="carousel-item">
           <img className="d-block w-100" src={aktivity11} alt="First slide" />
+        </div>
+        <div className="carousel-item">
+          <img className="d-block w-100" src={aktivity15} alt="First slide" />
+        </div>
+        <div className="carousel-item">
+          <img className="d-block w-100" src={aktivity2} alt="First slide" />
+        </div>
+        <div className="carousel-item">
+          <img className="d-block w-100" src={aktivity3} alt="First slide" />
+        </div>
+        <div className="carousel-item">
+          <img className="d-block w-100" src={aktivity16} alt="First slide" />
+        </div>
+        <div className="carousel-item">
+          <img className="d-block w-100" src={aktivity17} alt="First slide" />
+        </div>
+        <div className="carousel-item">
+          <img className="d-block w-100" src={aktivity18} alt="First slide" />
+        </div>
+        <div className="carousel-item">
+          <img className="d-block w-100" src={aktivity19} alt="First slide" />
         </div>
         <a
           className="carousel-control-prev"

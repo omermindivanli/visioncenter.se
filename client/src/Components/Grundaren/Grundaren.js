@@ -3,7 +3,7 @@ import './Grundaren.css';
 import grundarenSlider from '../../Assests/Grundaren/grundarenSlider.jpg';
 import dervisBey from '../../Assests/Grundaren/dervisBey.jpeg';
 import dervis033 from '../../Assests/Grundaren/dervis033.jpeg';
-import dsc from '../../Assests/Historia/dsc.jpg';
+import photoV from '../../Assests/Historia/dsc.jpg';
 
 const Grundaren = () => (
   <div className="container">
@@ -54,6 +54,7 @@ const Grundaren = () => (
     <div
       data-interval="2000"
       id="myCarousel"
+      data-wrap="true"
       className=" container col-md-6 carousel slide"
       data-ride="carousel"
     >
@@ -74,9 +75,9 @@ const Grundaren = () => (
 
         <div className="carousel-item active">
           <img
+            src={photoV}
             className="img-fluid second-slide"
-            src={dsc}
-            alt="Third slide"
+            alt="Second slide"
           />
           <div className="carousel-caption text-left">
             <h6 id="shorter">

@@ -5,7 +5,11 @@ const OmVisionCenter = () => (
   <div className="container">
     <div className="row">
       <div className="col-md-6">
-        <h4>VISION CENTER SWEDEN <br /> Arbetar i Brottsförebyggande Syfte</h4>
+        <h4>
+          VISION CENTER SWEDEN
+          <br />
+          Arbetar i Brottsförebyggande Syfte
+        </h4>
         <h5>Ungdomar</h5>
         <br />
         <p>

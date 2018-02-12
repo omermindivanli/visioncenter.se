@@ -1,7 +1,6 @@
 import React from 'react';
 import './Turkiet.css';
 import iconTurkey from '../../Assests/iconTurkey.png';
-import turkiet2 from '../../Assests/Turkiet/turkiet2.png';
 import turkiet3 from '../../Assests/Turkiet/turkiet3.png';
 import turkiet4 from '../../Assests/Turkiet/turkiet4.png';
 import dervisBey from '../../Assests/Grundaren/dervisBey.jpeg';
@@ -18,6 +17,7 @@ const Turkiet = () => (
       <br />
       <div className="col-md-6 img-fluid float-right">
         <div
+          data-wrap="true"
           data-interval="2000"
           id="myCarousel"
           className="shadow-box carousel slide"
@@ -37,9 +37,9 @@ const Turkiet = () => (
             </div>
             <div className="carousel-item">
               <img
-                className="img-fluid fourth-slide"
+                className="img-fluid first-slide"
                 src="https://ak4.picdn.net/shutterstock/videos/6651734/thumb/1.jpg"
-                alt="Fourth slide"
+                alt="rth slide"
               />
             </div>
             <div className="carousel-item">
@@ -49,7 +49,7 @@ const Turkiet = () => (
               <img className="img-fluid third-slide" src={turkiet3} alt="Third slide" />
             </div>
             <div className="carousel-item">
-              <img className="img-fluid fourth-slide" src={turkiet2} alt="Fourth slide" />
+              <img className="img-fluid fourth-slide" src="" alt="Fourth slide" />
             </div>
           </div>
 
