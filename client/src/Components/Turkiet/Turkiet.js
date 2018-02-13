@@ -20,9 +20,6 @@ const Turkiet = () => (
     <div className="turkiet">
       <h5 className="text-center text-muted">Dürüstlük - Dayanışma - Gelecek</h5>
       <h3>VISION CENTER TURKEY</h3>
-      <br />
-      <h5 className="text-muted">Bagimlilikla Mücadele ve Mahkumların Rehabilitasyon Derneği</h5>
-      <br />
       <div className="col-md-6 auto img-fluid float-right">
         <div
           data-wrap="true"
@@ -98,7 +95,9 @@ const Turkiet = () => (
           </a>
         </div>
       </div>
-
+      <br />
+      <h6 className="text-muted">Bagimlilikla Mücadele ve Mahkumların Rehabilitasyon Derneği</h6>
+      <br />
       <h5>VISION CENTER TURKEY NEDIR VE AMACLARI NELERDIR? </h5>
       <p>
         VISION CENTER TURKEY, geçmiş yaşantılarında suç işlemiş ve madde bağımlılığı yaşamış
@@ -186,8 +185,6 @@ const Turkiet = () => (
       </p>
       <hr />
       <br />
-      <br />
-      <img className="img-fluid float-right col-xl-4" src={dervisBey} alt="" />
       <h5>VIZYON MERKEZİ KURUCUSU DERVİŞ DENNIS AKSAY</h5>
       <p>
         Derviş Dennis Aksay, Nevşehir ilinin, Hacıbektaş ilçesinin, Mikail köyünde ailenin beşinci
@@ -216,7 +213,6 @@ const Turkiet = () => (
         defalarca hapse girmiş çıkmıştır. Uyuşturucu, kumar batağında, tefecilik, gasp ve soygun
         gibi ağır suçlar işlemek zorunda kalmıştır.
       </p>
-      <img className="img-fluid float-right col-xl-4" src={dennis035} alt="" />
       <p>
         Stockholm’de, pizza, restorant ve kuaför salonu işletmiştir. Derviş AKSAY ilk eşinden
         ayrılırken büyük sıkıntılar ve bunalımlar yaşamıştır. Yanında sorunlarını paylaşabilecek
@@ -271,7 +267,6 @@ const Turkiet = () => (
           </em>
         </strong>
       </p>
-      <img className="img-fluid float-right col-xl-4" src={dennis017} alt="" />
       <p>
         2008 İle 2009 yılları arasında ikinci defa (tedavi-rehabilitasyon merkezinde) tedavi gören
         AKSAY, burada aldığı destek ile hayatını ve bütün çevresini değiştirir. Derviş AKSAY
@@ -307,6 +302,40 @@ const Turkiet = () => (
         olarak kalkınmalarını sağlamak ve toplumda saygın bir yer edinmelerini hedeflemektedir.
       </p>
     </div>
+    <div className="row">
+      <div className="col-md-4">
+        <img className="img-fluid" src={dennis017} alt="" />
+      </div>
+      <div className="col-md-4">
+        <img className="img-fluid" src={dervisBey} alt="" />
+      </div>
+      <div className="col-md-4">
+        <img className="img-fluid" src={dennis035} alt="" />
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <div className="container text-center">
+      <h6>Kurucu Başkan / Derviş Dennis Aksay</h6>
+      <abbr title="Phone"><strong>İletişim İsveç:</strong></abbr>
+      +467 229 009 65
+      <address>
+        <strong>Vision Center Turkey</strong>
+        <br />
+        <strong>Bağımlılıkla Mücadele ve Mahkumların Rehabilitasyonu Derneği</strong><br />
+        <strong>Adres:</strong> Akbıyık Keresteci Hakkı Sok. No:50<br />
+        Cankurtaran/Sultanahmet Istanbul, Turkey<br />
+        <abbr title="Phone"><strong>İletişim Türkiye: </strong></abbr>
+        <strong>Bşk Yrd: Hasan Şahan: </strong> +90 (542) 811 08 35
+        </address>
+      <address>
+        <br />
+        <a href="mailto:sweden@visioncenter.se">sweden@visioncenter.se</a>
+      </address>
+    </div>
+
+
     <div className="row">
       <img
         alt=""

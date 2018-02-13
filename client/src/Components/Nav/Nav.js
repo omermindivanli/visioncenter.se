@@ -119,7 +119,7 @@ const Nav = () => (
         </Link>
         <Link className="nav-link active" to="/turkiet">
           <a id="greenButton" className="nav-link">
-            TURKIET
+            TÜRKİYE
           </a>
         </Link>
         <Link className="nav-link active" to="/kontakt">

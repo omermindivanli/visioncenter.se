@@ -9,13 +9,16 @@ import film5 from '../../Assests/Film/film5.JPG';
 
 const Film = () => (
   <div className="container">
+    <h2 className="col-md-4"><em>Filmen Someone´s Live</em></h2>
     <div className="row">
-      <h2 className="col-md-4"><em>Filmen Someone´s Live</em></h2>
+      <div className="col-md-6">
+        <img alt="" src={film4} className="shadow-box img-fluid" />
+      </div>
       <iframe
         id="iframe"
         title="VisionCenter Video"
-        height="450"
-        width="650"
+        height="400"
+        width="550"
         src="https://www.youtube.com/embed/VwQDzmyPRI8"
         allow="autoplay; encrypted-media"
       />
@@ -33,11 +36,7 @@ const Film = () => (
       hon hade ”förlorat” sin heder och begått en synd. Sarah behövde hjälp och träffade
       Dennis som kanske kunde ändra på hennes liv.
       </p>
-    <div className="row">
-      <div className="container col-md-6">
-        <img alt="" src={film4} className="shadow-box img-fluid" />
-      </div>
-    </div>
+
     <br />
     <div className="row">
       <div className="container col-md-6">

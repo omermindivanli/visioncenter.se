@@ -17,7 +17,9 @@ import m7015 from '../../Assests/MiljArbete/m7015.JPG';
 
 const MiljArbete = () => (
   <div className="container miljöArbete">
-    <h2 className="col-md-6">Miljö Arbete</h2>
+    <div className="row">
+      <h2 className="col-md-6">Miljö Arbete / Projekt Första Jobbet</h2>
+    </div>
     <div
       data-interval="2000"
       data-wrap="true"
@@ -110,6 +112,11 @@ const MiljArbete = () => (
         </a>
       </div>
     </div>
+    <div className="col-md-2">
+      <img alt="" src="http://www.arvsfonden.se/sites/default/files/project_updates/12713/arvsfonden_0.png" className="img-fluid" />
+    </div>
+    <br />
+
     <p className="col-lg-7">
       Sedan 2012 har vi försöka bidra till att hjälpa ungdomar bort från kriminalitet och droger
       samt människor som har suttit i fängelse att få ett riktigt jobb och ett nytt liv.

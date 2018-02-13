@@ -1,9 +1,7 @@
 import React from 'react';
-import certificate from '../../Assests/certificate.png';
-import historia2 from '../../Assests/Historia/historia2.png';
-import historia3 from '../../Assests/Historia/historia3.png';
-import historia4 from '../../Assests/Historia/historia4.png';
-import utmarkt2013 from '../../Assests/Home/utmarkt2013.jpg';
+import nightshift from '../../Assests/Historia/nightshift.jpg';
+import car1 from '../../Assests/Historia/car1.jpg';
+import vard from '../../Assests/Historia/vard.jpg';
 
 const Nightshift = () => (
   <div>
@@ -12,21 +10,19 @@ const Nightshift = () => (
         <div className="col-md-6">
           <h2>TRYGGHETSVANDRING</h2>
           <p>
-            Vision Center Sweden är en fristående lokalförening. <br />Förutom vad som gäller för
-            Vision Center enligt ovan har denna förening fokuserat på förebyggande arbete med
-            ungdomar, särskilt de i riskzon för kriminalitet eller missbruk. <br />Vi strävar även
-            att hjälpa ungdomar med problem in på arbetsmarknaden. Men arbetet är inte bara
-            förbyggande. <br /> Vi gör också insatser med unga som missbrukar eller är kriminella.
-            Vision Center Haninge tidigare namnet X-CONS Haninge har funnits sedan 2009 och har nu
-            en stark förankring i lokalsamhället med goda kontakter med kommun, socialtjänst,
-            kultur- och fritidsförvaltning, arbetsförmedling, polis, ungdomsmottagning och med en
-            lång rad föreningar i området. Vi har också utvecklat kontakter med flera omgivande
-            kommuner.<br /> Vi ändrade namnet 2018 till VISION CENTER SWEDEN.
+            X-CONS ( Byta namn till Vision Center Sweden ) Haninge har sedan 2009 bedrivit trygghetsvandringar i Haninge tillsammans med volontärer, ungdomar, Civilförsvarsförbundet med flera. Det har gett oss god kontakt med ungdomar som rör sig i samhället sena kvällar och nätter. Vi har också kontrollerat att olika fastigheters dörrar är låsta där vi har en överenskommelse.
+          </p>
+          <p>
+            <strong>Grundidén med nattvandringarna är att se, höra, att närvara på plats, att informera och därmed kunna förebygga! Vi satsar först och främst på ungdomar från 13år och uppåt!!</strong>
+          </p>
+          <p>
+            Från att föreningen öppnade sina dörrar så började nattvandringen äga rum med minst två-tre kvällar/nätter i veckan från klockan ca 20:00-02:00.
+            Volontärerna har alltid bestått av både tjejer och killar och vi har alltid varit minst 7 volontärer/medlemmar som nattvandrat samtidigt runt om hela Haninge kommun!Syftet med nattvandringen är att ge en trygghetskänsla och att vägleda ungdomar.
           </p>
         </div>
-
         <div className="col-md-6">
           <div
+            data-interval="2000"
             id="myCarousel"
             data-wrap="true"
             className=" antiBlur carousel slide"
@@ -42,23 +38,17 @@ const Nightshift = () => (
               <div className="carousel-item active">
                 <img
                   className="img-fluid first-slide"
-                  src="http://x-conshaninge.se/x/wp-content/uploads/2017/04/Boende-slider-3.jpg"
+                  src={nightshift}
                   alt="First slide"
                 />
                 <div className="container" />
               </div>
               <div className="carousel-item">
-                <img className="img-fluid second-slide" src="" alt="Second slide" />
+                <img className="img-fluid second-slide" src={car1} alt="Second slide" />
               </div>
               <div className="carousel-item">
-                <img className="img-fluid third-slide" src={historia2} alt="Third slide" />
+                <img className="img-fluid third-slide" src={vard} alt="Third slide" />
                 <div className="container" />
-              </div>
-              <div className="carousel-item">
-                <img className="img-fluid fourth-slide" src={historia3} alt="Second slide" />
-              </div>
-              <div className="carousel-item">
-                <img className="img-fluid fifth-slide" src={historia4} alt="Second slide" />
               </div>
             </div>
 
@@ -72,78 +62,14 @@ const Nightshift = () => (
             </a>
           </div>
         </div>
+
+        <p className="col-md-12">
+          Området för våra nattvandringar är inom Haninge kommun. I dagsläget är vi en liten grupp med ca 5-7 nattvandrare, men tanken är att vi ska vara minst dubbelt så många under 2011 (ju fler desto bättre!).  I framtiden vill vi kunna erbjuda Haninges ungdomar flera varierande och spännande alternativ istället för att dricka alkohol och missbruka droger. Ungdomarna är välkomna till våra lokaler för att umgås, se på film, spela biljard och sällskapsspel och dyl. Vi har dock märkt att ungdomarna uppskattar våra nattvandringar och vi får kontakt med ca ett femtiotal ungdomar per nattvandring. Ungdomarna visar stort intresse för Vision Center Sweden Haninge och många vill veta mer om våra aktiviteter och vad vi kan erbjuda just dem. Vår närvaro har markerat tydligt för ungdomarna att vi ser de och vet vad som pågår och visar att vi bryr oss och vill hjälpa dem.
+          Vi tror att Vision Center Sweden Haninge kan erbjuda livsviktig information till dessa ungdomar så att de lär sig och förstår sig på kriminalitetens och missbrukets farliga följder. Nattvandringarna innebär en chans för dem att välja bort båda två!
+        </p>
       </div>
     </div>
-
-    <div className="container">
-      <h5>Genom åren har vi hunnit med mycket</h5>
-      <p>
-        Förutom vårt arbete i brottförebyggande syfte med ungdomar och vuxna har vi drivit
-        fritidsgård med café, haft loppis med café, åkt runt på
-        skolor-ungdomsgårdar-behandlingshem-anstalter för att hålla föreläsningar, anordnat flera
-        stora festivaler, startat tjejverksamhet, genomfört mängder av ungdomsaktiviteter,
-        nattvandrat, haft läxhjälp, genomfört flertalet möten med ungdomar i ämnen som jämställdhet
-        och demokrati, utbildat, haft svenskspråkträning, gett ut en film om hederskulturens
-        avigsidor….och mycket mer.
-      </p>
-
-      <h6>Vi har också genomfört/genomför flera stora ungdomsprojekt:</h6>
-      <ul>
-        <li>Folkhälsomyndigheten-Lyckas utan spel</li>
-        <li>MUCF-Stödja ungdomars självständiga organisering och inflytande i samhället</li>
-        <li>Gålöstiftelsen-Meningen med livet</li>
-        <li>Arvsfonden-Första jobbet</li>
-      </ul>
-      <p>
-        Vision Center är en fristående lokalförening. Förutom vad som gäller för Vision Center
-        enligt ovan har denna förening fokuserat på förebyggande arbete med ungdomar, särskilt de i
-        riskzon för kriminalitet eller missbruk. Vi strävar även att hjälpa ungdomar med problem in
-        på arbetsmarknaden. Men arbetet är inte bara förbyggande. Vi gör också insatser med unga som
-        missbrukar eller är kriminella. Vision Center Haninge tidigare namnet X-CONS Haninge har
-        funnits sedan 2009 och har nu en stark förankring i lokalsamhället med goda kontakter med
-        kommun, socialtjänst, kultur- och fritidsförvaltning, arbetsförmedling, polis,
-        ungdomsmottagning och med en lång rad föreningar i området. Vi har också utvecklat kontakter
-        med flera omgivande kommuner. Vi ändrade namnet 2018 till VISION CENTER SWEDEN.
-      </p>
-      <p>
-        Vi har även hunnit med att vidareutbilda oss själva för att bli bättre i vårt arbete.
-        Exempel på utbildningar: MI-motiverande samtal, ART-från aggressivitet till harmoni,
-        VÄXA-att leda praktikanter och sommarjobbare, BSF-beteende-samtal-förändring.
-      </p>
-      <p>
-        2013 blev vi (efter 2 års utbildning i 4 steg) kvalitetscertifierade som Utmärkt Förening av
-        Haninge kommun.
-      </p>
-
-      <div className="container">
-        <div className="row">
-          <ul className="col-md-6">
-            <li>Det innebär att vi har:</li>
-            <li>Tydliga mål, vision och värdegrund</li>
-            <li>En organisations- och rekryteringsplan med arbetsbeskrivning kopplade till sig</li>
-            <li>Utbildade ledare i hjärt-och lungräddning (HLR) samt krishantering (LABC)</li>
-            <li>Drogförebyggande arbete</li>
-          </ul>
-          <img className="img-fluid" src={certificate} alt="First slide" />
-          <div className="col-md-3">
-            <img
-              className="shadow-box featurette-image img-fluid mx-auto"
-              src={utmarkt2013}
-              data-src="holder.js/500x500/auto"
-              alt="Generic placeholder"
-            />
-          </div>
-        </div>
-      </div>
-      <br />
-      <p className="">
-        Vision Centers engagemang genom åren har gett oss en stark förankring i lokalsamhället med
-        goda kontakter med kommun, socialtjänst, kultur- och fritidsförvaltning, arbetsförmedling,
-        polis, ungdomsmotta gningar och med en lång rad föreningar i området. Vi har också utvecklat
-        kontakter med flera omkringliggande kommuner.
-      </p>
-    </div>
-  </div>
+  </div >
 );
 
 export default Nightshift;
