@@ -9,7 +9,7 @@ const Footer = () => (
       <div className="row">
         <div className="col-12 col-md">
           <img className="mb-2" src={logo} alt="" width="90" height="90" />
-          <small className="d-block mb-3 text-muted">&copy; 2017-2019</small>
+          <small className="d-block mb-3 text-muted">&copy; 2017-2023</small>
         </div>
         <div className="col-6 col-md">
           <h5>Om Oss</h5>
@@ -80,25 +80,33 @@ const Footer = () => (
 
         <div className="col-6 col-md">
           <h5>Kontakt</h5>
+          <address>
+            <strong>VISION CENTER SWEDEN</strong>
+            <br />
+            Handens Stationsväg 19, 13640
+            Handen <br />
+            Stockholm, Sweden <br />
+            <abbr title="Phone"><strong>Mobil:</strong></abbr>
+            +467 229 00 965
+            <br />
+            <abbr title="Phone"><strong>Kontor:</strong></abbr>
+            +468 777 30 10
+          </address>
+          <address>
+            <strong>Orgnr: </strong>802448-2989
+          <br />
+            <strong>Pg: </strong>530547-9 <br />
+            <strong>Bg: </strong> 460-27-69
+          </address>
           <ul className="list-unstyled text-small">
-            <li>
-              <a className="text-muted" href="">
-                Vision Center Sweden AB
-              </a>
-            </li>
-            <li className="text-muted">
-              Adress: Handens Stationsväg 19, Handen Stockholm, Sweden 13640
-            </li>
-            <hr />
             <li>
               E-Mail: <a href="mailto:sweden@visioncenter.se">sweden@visioncenter.se</a>
             </li>
           </ul>
         </div>
       </div>
-      <hr />
       <p id="lastP" className="text-small text-muted">
-        &copy; 2017-2019 Created by <a href="http://omermindivanli.com">Ömer Mindivanli</a>
+        &copy; 2017-2023 Created by <a href="http://omermindivanli.com">Ömer Mindivanli</a>
         , Front-End Web Utveckläre
       </p>
     </div>

@@ -14,12 +14,13 @@ import turkiet6 from '../../Assests/Turkiet/turkiet6.png';
 import active1 from '../../Assests/Turkiet/active1.jpg';
 import misiad1 from '../../Assests/Turkiet/misiad1.jpg';
 import misiad from '../../Assests/Turkiet/misiad.jpg';
+import misiad7 from '../../Assests/Turkiet/misiad7.jpg';
 
 const Turkiet = () => (
   <div className="container">
     <div className="turkiet">
-      <h5 className="text-center text-muted">Dürüstlük - Dayanışma - Gelecek</h5>
       <h3>VISION CENTER TURKEY</h3>
+      <h6 className="text-muted">Dürüstlük - Dayanışma - Gelecek</h6>
       <div className="col-md-6 auto img-fluid float-right">
         <div
           data-wrap="true"
@@ -60,6 +61,9 @@ const Turkiet = () => (
               <img className="img-fluid second-slide" src={turkiet10} alt="Second slide" />
             </div>
             <div className="carousel-item">
+              <img className="img-fluid fourth-slide" src={misiad7} alt="Fourth slide" />
+            </div>
+            <div className="carousel-item">
               <img className="img-fluid fourth-slide" src={misiad} alt="Fourth slide" />
             </div>
             <div className="carousel-item">
@@ -95,8 +99,7 @@ const Turkiet = () => (
           </a>
         </div>
       </div>
-      <br />
-      <h6 className="text-muted">Bagimlilikla Mücadele ve Mahkumların Rehabilitasyon Derneği</h6>
+      <h6 className="text">Bagimlilikla Mücadele ve Mahkumların Rehabilitasyon Derneği</h6>
       <br />
       <h5>VISION CENTER TURKEY NEDIR VE AMACLARI NELERDIR? </h5>
       <p>
@@ -317,25 +320,28 @@ const Turkiet = () => (
     <br />
 
     <div className="container text-center">
-      <h6>Kurucu Başkan / Derviş Dennis Aksay</h6>
-      <abbr title="Phone"><strong>İletişim İsveç:</strong></abbr>
+      <h6>Kurucu Başkan / Derviş Aksay</h6>
+      <abbr title="Phone">
+        <strong>İletişim İsveç:</strong>
+      </abbr>
       +467 229 009 65
       <address>
-        <strong>Vision Center Turkey</strong>
+        <strong>VISION CENTER Turkey</strong>
         <br />
         <strong>Bağımlılıkla Mücadele ve Mahkumların Rehabilitasyonu Derneği</strong><br />
         <strong>Adres:</strong> Akbıyık Keresteci Hakkı Sok. No:50<br />
         Cankurtaran/Sultanahmet Istanbul, Turkey<br />
-        <abbr title="Phone"><strong>İletişim Türkiye: </strong></abbr>
+        <abbr title="Phone">
+          <strong>İletişim Türkiye: </strong>
+        </abbr>
         <strong>Bşk Yrd: Hasan Şahan: </strong> +90 (542) 811 08 35
-        </address>
+      </address>
       <address>
+        <strong>E-posta:</strong>
         <br />
         <a href="mailto:sweden@visioncenter.se">sweden@visioncenter.se</a>
       </address>
     </div>
-
-
     <div className="row">
       <img
         alt=""

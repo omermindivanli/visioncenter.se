@@ -80,26 +80,33 @@ const Kontakt = () => (
         </div>
         <div className="col-md-4">
           <form />
-          <legend>
-            <span className="glyphicon glyphicon-globe" /> Our office
-          </legend>
           <address>
-            <strong>Vision Center SWEDEN, AB.</strong>
+            <strong>VISION CENTER SWEDEN</strong>
             <br />
-            Handens Stationsväg 19, Handen<br />
-            Stockholm, Sweden 13640<br />
-            <abbr title="Phone">Telefonnummer:</abbr>
+            Handens Stationsväg 19, 13640 <br />
+            Handen <br />
+            Stockholm, Sweden <br />
+            <abbr title="Phone"><strong>Mobil:</strong></abbr>
+            +467 229 00 965
+            <br />
+            <abbr title="Phone"><strong>Kontor:</strong></abbr>
             +468 777 30 10
           </address>
           <address>
-            <strong>Vision Center</strong>
+            <strong>Orgnr: </strong>802448-2989
+          <br />
+            <strong>Pg: </strong>530547-9 <br />
+            <strong>Bg: </strong> 460-27-69
+          </address>
+          <address>
+            <strong>E-Post:</strong>
             <br />
             <a href="mailto:sweden@visioncenter.se">sweden@visioncenter.se</a>
           </address>
         </div>
       </div>
     </div>
-  </div>
+  </div >
 );
 
 export default Kontakt;

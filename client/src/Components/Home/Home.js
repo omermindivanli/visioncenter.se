@@ -12,12 +12,9 @@ const video = {
 };
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      response: '',
-    };
-  }
+  state = {
+    response: '',
+  };
   componentDidMount() {
     this.callApi()
       .then(res => this.setState({ response: res.express }))
