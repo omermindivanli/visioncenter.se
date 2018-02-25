@@ -1,4 +1,5 @@
 import React from 'react';
+import vard from '../../Assests/Historia/vard.jpg';
 import historia2 from '../../Assests/Historia/historia2.png';
 import historia3 from '../../Assests/Historia/historia3.png';
 import certificate from '../../Assests/certificate.png';
@@ -7,10 +8,9 @@ import meet from '../../Assests/Historia/meet.jpg';
 import night from '../../Assests/Historia/night.jpg';
 import nightshift from '../../Assests/Historia/nightshift.jpg';
 import car1 from '../../Assests/Historia/car1.jpg';
-import vard from '../../Assests/Historia/vard.jpg';
 import students from '../../Assests/Historia/students.jpg';
 import highMeeting from '../../Assests/Historia/highMeeting.jpg';
-import dervisPortrait from '../../Assests/Historia/dervisPortrait.jpeg';
+import dervisPortrait from '../../Assests/Historia/dervisPortrait.jpg';
 import dsc from '../../Assests/Historia/dsc.jpg';
 import photoE from '../../Assests/Historia/photoE.jpg';
 import photoD from '../../Assests/Historia/photoD.jpg';

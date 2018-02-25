@@ -1,8 +1,8 @@
 import React from 'react';
 import './Aktiviteter.css';
+import aktivity from '../../Assests/Aktiviteter/aktivity.JPG';
 import aktivity12 from '../../Assests/Aktiviteter/aktivity12.JPG';
 import aktivity13 from '../../Assests/Aktiviteter/aktivity13.JPG';
-import aktivity from '../../Assests/Aktiviteter/aktivity.JPG';
 import aktivity1 from '../../Assests/Aktiviteter/aktivity1.png';
 import aktivity2 from '../../Assests/Aktiviteter/aktivity2.png';
 import aktivity3 from '../../Assests/Aktiviteter/aktivity3.JPG';
