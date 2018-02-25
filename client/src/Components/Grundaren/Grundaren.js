@@ -47,7 +47,7 @@ const Grundaren = () => (
       i Istanbul, Turkiet.
     </p>
     <div className="">
-      <img className="img-fluid col-lg-13 shadow-box" src={dervis033} alt="First slide" />
+      <img className="container img-fluid col-lg-12" src={dervis033} alt="First slide" />
     </div>
     <br />
     <br />
