@@ -47,7 +47,7 @@ const Turkiet = () => (
             <div className="carousel-item active">
               <img
                 className="img-fluid first-slide"
-                src="https://ak4.picdn.net/shutterstock/videos/6651734/thumb/1.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2000px-Flag_of_Turkey.svg.png"
                 alt="rth slide"
               />
             </div>
@@ -318,7 +318,6 @@ const Turkiet = () => (
     </div>
     <br />
     <br />
-
     <div className="container text-center">
       <h6>Kurucu Başkan / Derviş Aksay</h6>
       <abbr title="Phone">

@@ -12,25 +12,10 @@ const video = {
 };
 
 class Home extends Component {
-  state = {
-    response: '',
-  };
-  componentDidMount() {
-    this.callApi()
-      .then(res => this.setState({ response: res.express }))
-      .catch(err => console.log(err));
-  }
-  callApi = async () => {
-    const response = await fetch('/api/hello');
-    const body = await response.json();
-
-    if (response.status !== 200) throw Error(body.message);
-    return body;
-  };
   render() {
     return (
       <div className="container">
-        <h4 className="color">{this.state.response}</h4>
+        <h4 className="color">Välkommen till Vision Center Sweden</h4>
         <br />
         <div
           id="myCarousel"
@@ -69,8 +54,6 @@ class Home extends Component {
               />
             </div>
           </div>
-
-
           <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true" />
             <span className="sr-only">Previous</span>
@@ -202,7 +185,7 @@ class Home extends Component {
           <div className="row featurette">
             <div className="col-md-7">
               <h2 className="featurette-heading">
-                Vision Centers grundare och eldsjäl...<span className="text-muted"> </span>
+                Vision Centers grundare och eldsjäl...<span className="text-muted" />
               </h2>
               <p className="lead">
                 Vi har uppsökande verksamhet på anstalter, behandlingshem m.m. där vi ger
@@ -223,7 +206,7 @@ class Home extends Component {
             </div>
           </div>
         </section>
-      </div >
+      </div>
     );
   }
 }

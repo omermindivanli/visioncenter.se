@@ -75,10 +75,9 @@ const Grundaren = () => (
 
         <div className="carousel-item active">
           <img
-            src={photoV}
             className="img-fluid second-slide"
-            alt="Second slide"
-          />
+            src={photoV}
+            alt="Second slide" />
           <div className="carousel-caption text-left">
             <h6 id="shorter">
               2014 tilldelades Dervis ”Vitsippspriset” av Kristdemokraterna Haninge med

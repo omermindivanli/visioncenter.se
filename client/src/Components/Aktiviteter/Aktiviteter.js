@@ -26,7 +26,6 @@ const Aktiviteter = () => (
     <h6 className="">FÖREBYGGANDE ARBETE MED UNGDOMAR 13-26 ÅR</h6>
     <br />
     <div
-      data-interval="2000"
       data-wrap="true"
       id="carouselExampleIndicators"
       className="float-right col-lg-6 carousel slide"

@@ -8,7 +8,8 @@ const Kontakt = () => (
       <div className="row">
         <div className="container col-md-8">
           <div className="well well-sm">
-            <form method="POST">
+
+            <form action="" method="get">
               <div className="row">
                 <div className="col-md-6">
                   <div className="form-group">

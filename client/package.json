@@ -7,6 +7,7 @@
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "nodemailer": "^4.4.1",
+    "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
@@ -45,6 +46,5 @@
       "git add"
     ]
   },
-  "pre-commit": "lint-staged",
-  "proxy": "http://localhost:5000"
+  "pre-commit": "lint-staged"
 }
