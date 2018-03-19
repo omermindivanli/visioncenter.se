@@ -200,8 +200,7 @@ class Home extends Component {
               <img
                 className="shadow-box featurette-image img-fluid mx-auto"
                 src={dervisBooken}
-                data-src="holder.js/500x500/auto"
-                alt="Generic placeholder"
+                data-src="holder.js/500x500/auto" alt="Generic placeholder"
               />
             </div>
           </div>

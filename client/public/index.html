@@ -38,6 +38,8 @@
     crossorigin="anonymous"></script>
 
   <script>
+    //In Client-Side Redering React, Bootstrap 
+    //Navbar not collapsing problem
     $(function () {
       var navMain = $('.navbar-collapse');
       navMain.on('click', 'a', null, function () {
@@ -45,8 +47,8 @@
         $("html, body").scrollTop({ scrollTop: 0 }, "slow");
       });
     });
-  </script> //Carousel Client Side Auto-Start-Script
-  <script>
+
+    //Carousel Client Side Auto-Start-Script
     setInterval(function () {
       $('.carousel').carousel('next');
     }, 2000);
