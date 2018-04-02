@@ -83,7 +83,7 @@ const Footer = () => (
           <address>
             <strong>VISION CENTER SWEDEN</strong>
             <br />
-            Handens Stationsväg 19, 13640 Handen <br />
+            Handenterminalen 4, 9 tr. 13640 Handen <br />
             Stockholm, Sweden <br />
             <abbr title="Phone">
               <strong>Mobil:</strong>
