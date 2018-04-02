@@ -83,18 +83,21 @@ const Footer = () => (
           <address>
             <strong>VISION CENTER SWEDEN</strong>
             <br />
-            Handens Stationsväg 19, 13640
-            Handen <br />
+            Handens Stationsväg 19, 13640 Handen <br />
             Stockholm, Sweden <br />
-            <abbr title="Phone"><strong>Mobil:</strong></abbr>
+            <abbr title="Phone">
+              <strong>Mobil:</strong>
+            </abbr>
             +467 229 00 965
             <br />
-            <abbr title="Phone"><strong>Kontor:</strong></abbr>
+            <abbr title="Phone">
+              <strong>Kontor:</strong>
+            </abbr>
             +468 777 30 10
           </address>
           <address>
             <strong>Orgnr: </strong>802448-2989
-          <br />
+            <br />
             <strong>Pg: </strong>530547-9 <br />
             <strong>Bg: </strong> 460-27-69
           </address>
