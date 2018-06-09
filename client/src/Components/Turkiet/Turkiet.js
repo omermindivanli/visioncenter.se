@@ -9,7 +9,6 @@ import dennis017 from '../../Assests/Turkiet/dennis017.jpeg';
 import turkiet7 from '../../Assests/Turkiet/turkiet7.JPG';
 import turkiet8 from '../../Assests/Turkiet/turkiet8.JPG';
 import turkiet9 from '../../Assests/Turkiet/turkiet9.JPG';
-import turkiet10 from '../../Assests/Turkiet/turkiet10.JPG';
 import turkiet6 from '../../Assests/Turkiet/turkiet6.png';
 import active1 from '../../Assests/Turkiet/active1.jpg';
 import misiad1 from '../../Assests/Turkiet/misiad1.jpg';
@@ -56,9 +55,6 @@ const Turkiet = () => (
             </div>
             <div className="carousel-item">
               <img className="img-fluid fourth-slide" src={active1} alt="Fourth slide" />
-            </div>
-            <div className="carousel-item">
-              <img className="img-fluid second-slide" src={turkiet10} alt="Second slide" />
             </div>
             <div className="carousel-item">
               <img className="img-fluid fourth-slide" src={misiad7} alt="Fourth slide" />
@@ -327,7 +323,8 @@ const Turkiet = () => (
       <address>
         <strong>VISION CENTER Turkey</strong>
         <br />
-        <strong>Bağımlılıkla Mücadele ve Mahkumların Rehabilitasyonu Derneği</strong><br />
+        <strong>Bağımlılıkla Mücadele ve Mahkumların Rehabilitasyonu Derneği</strong>
+        <br />
         <strong>Adres:</strong> Akbıyık Keresteci Hakkı Sok. No:50<br />
         Cankurtaran/Sultanahmet Istanbul, Turkey<br />
         <abbr title="Phone">
