@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Nav.css';
-import logo from '../../Assests/logo.png';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Nav.css";
+import logo from "../../Assests/logo.png";
 
 const Nav = () => (
   <nav className="navbar navbar-expand-lg sticky-top navbar-light">
@@ -73,10 +73,29 @@ const Nav = () => (
             </Link>
           </ul>
         </Link>
-        <Link className="nav-link active" to="/studentHouse">
-          <a id="greenButton" className="nav-link">
+        <Link className="nav-link dropdown active" to="/studentHouse">
+          <a
+            id="greenButton"
+            className="nav-link dropdown-toggle"
+            data-toggle="dropdown"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
             STÖDBOENDE
           </a>
+          <ul className="nav-item dropdown-menu">
+            <Link className="nav-item active" to="/studentHouse">
+              <a id="greenButton" className="nav-link active">
+                STÖDBOENDE
+              </a>
+            </Link>
+            <Link className="nav-item active" to="/arbestmodellen">
+              <a id="greenButton" className="nav-link active">
+                ARBESTMODELLEN
+              </a>
+            </Link>
+          </ul>
         </Link>
         <Link className="nav-link dropdown active" to="/aktiviteter">
           <a

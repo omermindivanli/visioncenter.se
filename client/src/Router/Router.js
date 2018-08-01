@@ -1,24 +1,25 @@
-import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Nav from '../Components/Nav/Nav';
-import Home from '../Components/Home/Home';
-import Grundaren from '../Components/Grundaren/Grundaren';
-import Historia from '../Components/Historia/Historia';
-import OmVisionCenter from '../Components/OmVisionCenter/OmVisionCenter';
-import Stadgar from '../Components/Stadgar/Stadgar';
-import BliMedlem from '../Components/BliMedlem/BliMedlem';
-import IdeellArbete from '../Components/IdeellArbete/IdeellArbete';
-import Styrelse from '../Components/Styrelse/Styrelse';
-import Aktiviteter from '../Components/Aktiviteter/Aktiviteter';
-import MiljArbete from '../Components/MiljArbete/MiljArbete';
-import Nightshift from '../Components/Nightshift/Nightshift';
-import Film from '../Components/Film/Film';
-import StudentHouse from '../Components/StudentHouse/StudentHouse';
-import Sponsorer from '../Components/Sponsorer/Sponsorer';
-import Kontakt from '../Components/Kontakt/Kontakt';
-import Turkiet from '../Components/Turkiet/Turkiet';
-import Footer from '../Components/Footer/Footer';
+import Nav from "../Components/Nav/Nav";
+import Home from "../Components/Home/Home";
+import Grundaren from "../Components/Grundaren/Grundaren";
+import Historia from "../Components/Historia/Historia";
+import OmVisionCenter from "../Components/OmVisionCenter/OmVisionCenter";
+import Stadgar from "../Components/Stadgar/Stadgar";
+import BliMedlem from "../Components/BliMedlem/BliMedlem";
+import IdeellArbete from "../Components/IdeellArbete/IdeellArbete";
+import Styrelse from "../Components/Styrelse/Styrelse";
+import Aktiviteter from "../Components/Aktiviteter/Aktiviteter";
+import MiljArbete from "../Components/MiljArbete/MiljArbete";
+import Nightshift from "../Components/Nightshift/Nightshift";
+import Film from "../Components/Film/Film";
+import StudentHouse from "../Components/StudentHouse/StudentHouse";
+import Arbestmodellen from "../Components/Arbestmodellen/Arbestmodellen";
+import Sponsorer from "../Components/Sponsorer/Sponsorer";
+import Kontakt from "../Components/Kontakt/Kontakt";
+import Turkiet from "../Components/Turkiet/Turkiet";
+import Footer from "../Components/Footer/Footer";
 
 const routers = () => (
   <Router>
@@ -37,6 +38,7 @@ const routers = () => (
       <Route exact path="/nightshift" component={Nightshift} />
       <Route exact path="/film" component={Film} />
       <Route exact path="/studentHouse" component={StudentHouse} />
+      <Route exact path="/Arbestmodellen" component={Arbestmodellen} />
       <Route exact path="/sponsorer" component={Sponsorer} />
       <Route exact path="/turkiet" component={Turkiet} />
       <Route exact path="/kontakt" component={Kontakt} />
