@@ -1,13 +1,13 @@
 {
-  // "workbench.colorTheme": "United Ubuntu",
+  "workbench.colorTheme": "United Ubuntu",
   // "workbench.colorTheme": "Dracula",
   // This setting can be edited by user //
   //Editor
-  "editor.lineHeight": 26,
-  "editor.letterSpacing": 1,
-  "editor.fontWeight": "400",
-  "editor.fontSize": 19,
-  "editor.fontFamily": " Menlo, Monaco, 'Courier New'",
+  // "editor.lineHeight": 27,
+  // "editor.letterSpacing": 1.15,
+  // "editor.fontWeight": "300",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New'",
   "editor.formatOnSave": true,
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 4,
@@ -17,12 +17,12 @@
   "editor.renderWhitespace": "all",
   //Prettier
   //Prettier Plugin should be downloaded
-  // "prettier.tabWidth": 2,
-  // "prettier.eslintIntegration": true,
-  // "prettier.printWidth": 80,
-  // "prettier.singleQuote": true,
-  // "prettier.trailingComma": "all",
-  // "prettier.bracketSpacing": true,
+  "prettier.tabWidth": 2,
+  "prettier.eslintIntegration": true,
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.bracketSpacing": true,
   //Terminal
   "terminal.integrated.env.linux": {
     "HOME": null
@@ -31,7 +31,7 @@
   //Others and Uselful Ones
   "files.trimTrailingWhitespace": true,
   "files.autoSave": "afterDelay",
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 0,
   "window.openFilesInNewWindow": "on",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false
